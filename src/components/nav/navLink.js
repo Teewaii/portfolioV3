@@ -9,49 +9,49 @@ const links = [
     {
         id: 1,
         title: "Home ",
-        icon: homeIcon,        
-        anchor: 'hero',        
+        icon: homeIcon,
+        anchor: '#hero',
     },
-    
+
     {
         id: 2,
         title: "About ",
-        icon: AboutIcon,  
-        anchor: 'about',       
+        icon: AboutIcon,
+        anchor: '#about',
     },
-    
+
     {
         id: 3,
         title: "Experience ",
-        icon: experienceIcon, 
-        anchor: 'experience',        
+        icon: experienceIcon,
+        anchor: '#experience',
     },
-    
+
     {
         id: 4,
         title: "Projects ",
-        icon: projectIcon, 
-        anchor: 'projects',        
+        icon: projectIcon,
+        anchor: '#projects',
     },
-    
-    
+
+
     {
         id: 5,
         title: "Contact ",
-        icon: contactIcon,      
-        anchor: 'footer',   
+        icon: contactIcon,
+        anchor: '#footer',
     },
-    
-    
+
+
     {
         id: 6,
         title: "Resume ",
-        icon: resumeIcon,    
-        anchor: 'resume',     
+        icon: resumeIcon,
+        anchor: '#resume',
     },
-    
-    
-   
+
+
+
 ]
 
 export default links;

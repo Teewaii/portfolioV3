@@ -10,7 +10,7 @@ import './App.css';
 import ScrollToTop from "react-scroll-to-top";
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
 import Projects from './components/projects/Projects';
- import Footer from './components/footer/Footer';
+import Footer from './components/footer/Footer';
 // import Contact from './components/contact/Contact';
 
 
@@ -39,14 +39,18 @@ function App() {
         toggleMenu={toggleMenu}
         setToggle={setToggle}
       /> */}
-      <SideNav/>
+      <SideNav
+        toggle={toggle}
+        toggleMenu={toggleMenu}
+        setToggle={setToggle}
+      />
       < Hero />
       <About />
       <Experience />
-      <Projects 
-      project={project}
-      activeProject={activeProject}/>
-     <Footer/>
+      <Projects
+        project={project}
+        activeProject={activeProject} />
+      <Footer />
       <Socials />
       <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
       {!toggle &&

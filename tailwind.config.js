@@ -29,6 +29,7 @@ module.exports = {
       'primary': '#012B48',
       'secondary': '#75D0EE',
       'green': '#D6E869',
+      'navbg': '#031E30',
 
     },
     backgroundImage: {
@@ -41,9 +42,7 @@ module.exports = {
       'hdsabout': "url('../src/img/shot.svg')",
       'bkg': "url('../src/img/bkg.jpg')",
     },
-    screens: {
-      // 'pad': '540px',
-    },
+
     extend: {},
   },
   plugins: [

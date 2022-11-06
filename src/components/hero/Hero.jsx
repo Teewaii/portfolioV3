@@ -7,7 +7,7 @@ import Tools from '../tools/Tools';
 export default function Hello() {
   return (
 
-  <section className="hero bg-primary h-[100vh] flex flex-col justify-between">
+  <section id='hero' className="hero bg-primary h-[100vh] flex flex-col justify-between">
 <div className="hero-container bg-green  h-[80vh] sm:h-[75vh]">
 
 

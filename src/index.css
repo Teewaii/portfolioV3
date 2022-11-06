@@ -5,9 +5,10 @@
   --timing: 4s;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   font-family: 'ubuntu', sans-serif;
@@ -59,7 +60,7 @@ code {
   }
 
 
-  
+
 }
 
 .cont {
@@ -142,37 +143,46 @@ a {
   }
 }
 
-.tabs-head{
+.tabs-head {
   scrollbar-color: red;
 }
 
-.tabs-head::-webkit-scrollbar, .project-list::-webkit-scrollbar  {
+.tabs-head::-webkit-scrollbar,
+.project-list::-webkit-scrollbar {
   width: 30px;
   height: 8px;
 }
 
-.tabs-head::-webkit-scrollbar-track, .project-list::-webkit-scrollbar-track  {
+.tabs-head::-webkit-scrollbar-track,
+.project-list::-webkit-scrollbar-track {
   background: #75d0ee41;
- opacity: 0.5;
+  opacity: 0.5;
 }
-.tabs-head::-webkit-scrollbar-thumb, .project-list::-webkit-scrollbar-thumb  {
+
+.tabs-head::-webkit-scrollbar-thumb,
+.project-list::-webkit-scrollbar-thumb {
   background: #75d0ee63;
   border-radius: 20px;
 }
-.tabs-head::-webkit-scrollbar-thumb:hover, .project-list::-webkit-scrollbar-thumb:hover  {
+
+.tabs-head::-webkit-scrollbar-thumb:hover,
+.project-list::-webkit-scrollbar-thumb:hover {
   background: #75d0ee9a;
 }
 
+a:focus {
+  background-color: red;
+}
+
+/* 
 @media screen and (min-width:800px) {
   a.active {
-    border-bottom: 4px solid #75D0EE;
-    padding-bottom: 10px;
-    }
-}
+    background-color: red;
+  }
+} */
 
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
