@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "company": "Rimal Int'l & co.",
+    "title": "Creative Designer - ",
+    "year": "2020-2023",
+    "desc": [
+      "Consult with clients to establish the overall look of their project",
+      "Establish guidelines for illustrators, fonts, colours and images",
+      "Determine the medium best suited to produce the desired product",
+      "Prepare sketches, layouts and graphic elements",
+      "Co-ordinate all aspects of production for print and channel letter  production.",
+      "Maintains and update the company's website"
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Sprout Digital ltd.",
+    "title": "Web Developer/Creative Designer - ",
+    "year": "2017-2019",
+    "desc": [
+      "Created website layout and user interface using standard HTML/CSS practices.",
+      "Managed the company'sdomain and website hosting platform",
+      "Responsible for maintaining, expanding and scaling of clients websites.",
+      "Created UI design for specialized websites.",
+      "Created graphic designs for web, social media ads & banners, print and marketing collaterals as required.",
+      "Handles the print production services offered by the company."
+    ]
+  },
+  {
+    "id": 3,
+    "company": "240 Media Nig Ltd",
+    "title": "Graphic Designer - ",
+    "year": "2015-2018",
+    "desc": [
+      "Created books and magazines layouts for companies and associations",
+      " Created website and social media ads materials for marketing and promotions",
+      "Designed gift materials for wedding, birthday other occasions",
+      "Incorporated changes recommended by clients or art directors into final designs",
+      "Reviewed designs for errors before printing or publishing them.",
+      "Prepared files using standard colour and text format before sending to the press",
+      "Maintained constant communication with printing houses."
+    ]
+  },
+  {
+    "id": 4,
+    "company": "Final Touch Media",
+    "title": "Graphic Designer - ",
+    "year": "2014-2016",
+    "desc": [
+      "Designed magazines and journals for specific clients of the company and also created gift collaterals for print production.",
+      "Designed gift materials for wedding, birthday other occasions",
+      "Incorporated changes recommended by clients into final designs",
+      "Reviewed designs for errors before printing or publishing them.",
+      "Prepared files using standard colour and text format before sending to the press"
+    ]
+  },
+  {
+    "id": 5,
+    "company": "Stainless Digital Colors Ltd.",
+    "title": "Graphic Designer - ",
+    "year": "2010-2015",
+    "desc": [
+      "Designed marketing collaterals and books for clients",
+      "responsible for the operation and maintenance of an industrial digital color separation machine for print production",
+      "Reviewed designs for errors before publishing them.",
+      "Prepared files using standard colour and text format before sending to the press"
+    ]
+  },
+  {
+    "id": 6,
+    "company": "codeITng.",
+    "title": "Instructional Facilitator - ",
+    "year": "2018-2019",
+    "about": "About codeIT: codeIT is one of the many innovations hosted by YouthHubAfrica and organized by Sprout Digital. It’s dedicated to growing young people in the area of computer science and tech, especially around promoting hardcore programming skills at an early age.",
+    "desc": [
+      "Volunteered as an animation and coding facilitator for kids under the age of 5 - 18 years during their summer holidays."
+    ]
+  },
+  {
+    "id": 7,
+    "company": "YouthhubAfrica.",
+    "title": "Creative Designer - ",
+    "year": "Oct 2019-Dec 2019",
+    "about": "Youth Foundation for Development, Education & Leadership (YouthhubAfrica) is a non-profit organization founded in 2011. YouthhubAfrica is a platform for young people in Africa involved in social change to interact, learn and collaborate in new, creative and easy ways.",
+    "desc": [
+      "Volunteered as part of a multimedia team that managed the publicity of a yearly conference organized by YouthhubAfrica."
+    ]
+  }
+]
