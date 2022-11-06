@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio2/static/css/main.a32eb36f.css",
+    "main.js": "/portfolio2/static/js/main.6d0f253b.js",
+    "static/media/shot.svg": "/portfolio2/static/media/shot.ae5e01d1d672f042302a1f0546996763.svg",
+    "static/media/sass.jpg": "/portfolio2/static/media/sass.089f1d39870a1119824d.jpg",
+    "static/media/spiral-lg.svg": "/portfolio2/static/media/spiral-lg.d51072780f2210c88bd7.svg",
+    "static/media/spiral-mob.svg": "/portfolio2/static/media/spiral-mob.aabf063fc6c3063dfca3.svg",
+    "static/media/portfolio.jpg": "/portfolio2/static/media/portfolio.1da66b06740d864499f6.jpg",
+    "static/media/time-tracking.jpg": "/portfolio2/static/media/time-tracking.28b9a260fc109ff92b7a.jpg",
+    "static/media/easy.jpg": "/portfolio2/static/media/easy.5af182edef65ca54bc48.jpg",
+    "static/media/crowdfunding.jpg": "/portfolio2/static/media/crowdfunding.11a5c9e3781cf1504d2a.jpg",
+    "static/media/logo.svg": "/portfolio2/static/media/logo.20977a494c942041a4b1853d84ecd4e0.svg",
+    "index.html": "/portfolio2/index.html",
+    "static/media/downArrow.svg": "/portfolio2/static/media/downArrow.fba9f12e19e1c7deddefe061ff87a7e8.svg",
+    "static/media/rightArrow.svg": "/portfolio2/static/media/rightArrow.eda8150b65d9621a70c1db27c817ceac.svg",
+    "static/media/hamburger.svg": "/portfolio2/static/media/hamburger.c7956b290f893616472c902438408043.svg",
+    "static/media/close.svg": "/portfolio2/static/media/close.6ffa77ed7bf9fe613124dff4e1c14bc4.svg",
+    "main.a32eb36f.css.map": "/portfolio2/static/css/main.a32eb36f.css.map",
+    "main.6d0f253b.js.map": "/portfolio2/static/js/main.6d0f253b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a32eb36f.css",
+    "static/js/main.6d0f253b.js"
+  ]
+}
