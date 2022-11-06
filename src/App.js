@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
+import SideNav from './components/nav/SideNav';
 import Socials from './components/socials/Socials';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
@@ -33,11 +34,12 @@ function App() {
   }
   return (
     <div className="App">
-      <Nav
+      {/* <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
         setToggle={setToggle}
-      />
+      /> */}
+      <SideNav/>
       < Hero />
       <About />
       <Experience />

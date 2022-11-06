@@ -41,6 +41,9 @@ module.exports = {
       'hdsabout': "url('../src/img/shot.svg')",
       'bkg': "url('../src/img/bkg.jpg')",
     },
+    screens: {
+      // 'pad': '540px',
+    },
     extend: {},
   },
   plugins: [

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Tools() {
   return (
-    <section className="tools relative 
+    <section className="tools relative bg-secondary  h-[20vh] sm:h-[25vh]
     xl:after:absolute xl:after:right-0 xl:after:left-[85%] 2xl:after:left-[68%] xl:after:top-[50%] xl:after:bg-secondary xl:after:h-[2px]  after:opacity-50  ">
 <div className='hero bg-spiral-mob flex  bg-no-repeat bg-cover bg-bottom bg-opacity-[0.5] h-[20vh]
     lg:bg-spiral-lg  lg:min-h-[22vh] 2xl:h-[15vh] relative after:absolute w-[100%]  

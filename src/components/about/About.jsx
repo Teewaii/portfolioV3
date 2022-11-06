@@ -21,7 +21,7 @@ const tools = [
 export default function About() {
   return (
     <section id='about' className='about min-h-[100vh] flex py-[150px] 
-    md:pb-[40px] 2xl:lg:h-[85vh]  
+    md:pb-[40px] 2xl:lg:h-[85vh]  border
     
     '>
       <div className="aboutWrapper  container flex flex-col lg:flex-row items-center justify-center ">
