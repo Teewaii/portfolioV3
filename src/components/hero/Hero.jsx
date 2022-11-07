@@ -7,19 +7,25 @@ import Tools from '../tools/Tools';
 export default function Hello() {
   return (
 
-  <section id='hero' className="hero bg-primary h-[100vh] flex flex-col justify-between">
-<div className="hero-container bg-green  h-[80vh] sm:h-[75vh]">
+  <section id='hero' className="hero bg-primary h-[100vh] flex flex-col items-center justify-between py-24 overflow-hidden">
+<div className="hero-container h-[80vh] sm:h-[75vh]  max-w-[85%] lg:max-w-[75%] 3xl:max-w-[75%] ">
+<div className="desc flex flex-col items-start py-14 lg:px-[80px] sm:py-20">
+<h2 className='mb-[5px] font-medium text-[18px] text-[white]
+            lg:text-[25px]  3xl:text-[30px]
+               '>Hi, I'm</h2>
+    <h1 className='name text-secondary text-[1.8rem] mb-[12px] relative  inline-block pr-[3px]                   
+                  md:text-[2.5rem] md:mb-[18px] 2xl:mb-[26px]  xl:text-[3.5rem]  bg-primary                
+                  '>Ajimati Taiye,</h1>
+  <h1 className='header font-700 job text-left  text-[2rem] sm:text-[3rem] sm:leading-[60px] relative text-[white]  leading-[2.4rem] mb-[10px] lg:mb-[20px] md:text-[3rem] 2xl:text-[5.3rem] md:leading-[3.8rem] 2xl:leading-[6rem] lg:max-w-[1200px]' >I <span className='text-green'>Design</span>  & <span className='text-green'>Build</span>  Web Based Software Solutions!</h1>
+  <p className="body text-secondary text-sm text-left sm:text-xl lg:text-2xl  mb-14 xl:max-w-[950px]
+               ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
 
+<Btn />
+</div>
 
-
-
-
-
-
-
+</div>
 <div className="tools">
 <Tools/>
-</div>
 </div>
   </section>
   )

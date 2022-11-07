@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import projects from './project';
 import ProjectScroll from '../projectScroll/ProjectScroll';
-export default function Projects({project,activeProject}) {
+export default function Projects({ project, activeProject }) {
   // const [project, setProject] = useState(0);
 
   // function activeProject(index) {
@@ -33,10 +33,10 @@ export default function Projects({project,activeProject}) {
             {/* Projects list controller start */}
 
             <ProjectScroll
-            project={project}
-            activeProject={activeProject}
+              project={project}
+              activeProject={activeProject}
             />
-            
+
             {/* 
            Projects description end  */}
             {projects.map((item, index) =>

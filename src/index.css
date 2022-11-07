@@ -170,9 +170,7 @@ a {
   background: #75d0ee9a;
 }
 
-a:focus {
-  background-color: red;
-}
+
 
 /* 
 @media screen and (min-width:800px) {
