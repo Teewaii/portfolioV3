@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolioV3/static/css/main.f0f287e6.css",
-    "main.js": "/portfolioV3/static/js/main.991ac7b7.js",
-    "static/media/shot.svg": "/portfolioV3/static/media/shot.ae5e01d1d672f042302a1f0546996763.svg",
+    "main.css": "/portfolioV3/static/css/main.ebea138b.css",
+    "main.js": "/portfolioV3/static/js/main.89b3a001.js",
+    "static/media/shot.svg": "/portfolioV3/static/media/shot.3a961dd2c50d60fe36399d50118326a4.svg",
     "static/media/sass.jpg": "/portfolioV3/static/media/sass.089f1d39870a1119824d.jpg",
-    "static/media/spiral-lg.svg": "/portfolioV3/static/media/spiral-lg.d51072780f2210c88bd7.svg",
-    "static/media/spiral-mob.svg": "/portfolioV3/static/media/spiral-mob.aabf063fc6c3063dfca3.svg",
+    "static/media/spiral-lg.svg": "/portfolioV3/static/media/spiral-lg.42b25ea858ed41be273c.svg",
+    "static/media/spiral-mob.svg": "/portfolioV3/static/media/spiral-mob.6869fa6fdb273e7c8af1.svg",
     "static/media/portfolio.jpg": "/portfolioV3/static/media/portfolio.1da66b06740d864499f6.jpg",
     "static/media/time-tracking.jpg": "/portfolioV3/static/media/time-tracking.28b9a260fc109ff92b7a.jpg",
     "static/media/easy.jpg": "/portfolioV3/static/media/easy.5af182edef65ca54bc48.jpg",
     "static/media/crowdfunding.jpg": "/portfolioV3/static/media/crowdfunding.11a5c9e3781cf1504d2a.jpg",
-    "static/media/project.svg": "/portfolioV3/static/media/project.50ca9f71e2e1da61f9020443ce5e6428.svg",
+    "static/media/project.svg": "/portfolioV3/static/media/project.bd432e46adbdabb48402667eb1073633.svg",
     "static/media/logo.svg": "/portfolioV3/static/media/logo.4f4d0a1c1917a716c21f7ffae49f30f3.svg",
-    "static/media/resume.svg": "/portfolioV3/static/media/resume.640ce7b6be87a35f03bca43d34e88e4b.svg",
-    "static/media/experience.svg": "/portfolioV3/static/media/experience.37df4ff634c31cb522369fb5073573b9.svg",
-    "static/media/contact.svg": "/portfolioV3/static/media/contact.141211c74239ce167eb0a870df6e235d.svg",
-    "static/media/home.svg": "/portfolioV3/static/media/home.f4d12f36643605242eb720c3eaec7259.svg",
-    "static/media/About.svg": "/portfolioV3/static/media/About.a244a544b70a46d1bbf068623ad2ca0b.svg",
+    "static/media/resume.svg": "/portfolioV3/static/media/resume.00328ed8885e096e62ee59fe73167044.svg",
+    "static/media/experience.svg": "/portfolioV3/static/media/experience.89abb081e40efbb8842d306f5f792423.svg",
+    "static/media/contact.svg": "/portfolioV3/static/media/contact.357855651a62422bfa3d76f0281feb9c.svg",
+    "static/media/home.svg": "/portfolioV3/static/media/home.4e0e008b3f8ba8c028db60cb159fc5f5.svg",
+    "static/media/About.svg": "/portfolioV3/static/media/About.8fe5163e3b94c2b97dd3c17134101b66.svg",
     "index.html": "/portfolioV3/index.html",
-    "static/media/downArrow.svg": "/portfolioV3/static/media/downArrow.fba9f12e19e1c7deddefe061ff87a7e8.svg",
-    "static/media/rightArrow.svg": "/portfolioV3/static/media/rightArrow.eda8150b65d9621a70c1db27c817ceac.svg",
-    "static/media/hamburger.svg": "/portfolioV3/static/media/hamburger.c7956b290f893616472c902438408043.svg",
-    "static/media/close.svg": "/portfolioV3/static/media/close.6ffa77ed7bf9fe613124dff4e1c14bc4.svg",
-    "main.f0f287e6.css.map": "/portfolioV3/static/css/main.f0f287e6.css.map",
-    "main.991ac7b7.js.map": "/portfolioV3/static/js/main.991ac7b7.js.map"
+    "static/media/downArrow.svg": "/portfolioV3/static/media/downArrow.4865b500edc21f3b4af8178a2d41c337.svg",
+    "static/media/rightArrow.svg": "/portfolioV3/static/media/rightArrow.9eb90bba89b61bea045edb9718c6417f.svg",
+    "static/media/hamburger.svg": "/portfolioV3/static/media/hamburger.ac42f6b03e9f6c113afc0464e781195b.svg",
+    "static/media/close.svg": "/portfolioV3/static/media/close.6ba031feba26f3c2db1bcc011ff56df9.svg",
+    "main.ebea138b.css.map": "/portfolioV3/static/css/main.ebea138b.css.map",
+    "main.89b3a001.js.map": "/portfolioV3/static/js/main.89b3a001.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0f287e6.css",
-    "static/js/main.991ac7b7.js"
+    "static/css/main.ebea138b.css",
+    "static/js/main.89b3a001.js"
   ]
 }
