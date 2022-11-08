@@ -63,13 +63,13 @@ function App() {
 
       {/* Hamburger */}
       <div className="topNav   absolute top-8 right-0 z-[2900] lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 ">
-        <div className="logo">
+        <div className="logo opacity-20">
           <img src={logo} alt="logo" />
         </div>
         <div className="toggles " onClick={toggleMenu}  >
           {toggle ?
-            <img className='lg:hidden w-[40px]   cursor-pointer' src={hamburger} alt="hamburger" /> :
-            <img className='lg:hidden w-[35px]   cursor-pointer' src={close} alt="close-menu" />}
+            <img className='lg:hidden w-[35px]   cursor-pointer' src={hamburger} alt="hamburger" /> :
+            <img className='lg:hidden w-[32px]   cursor-pointer' src={close} alt="close-menu" />}
 
         </div>
       </div>
