@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import projects from './project';
 import ProjectScroll from '../projectScroll/ProjectScroll';
+import { motion } from "framer-motion";
+
+
 export default function Projects({ project, activeProject }) {
   // const [project, setProject] = useState(0);
 
@@ -15,39 +18,61 @@ export default function Projects({ project, activeProject }) {
   return (
     <section id='projects' className="project min-h-[100vh] lg:[90vh] bg-primary  
      flex justify-center items-center  md:py-[10rem] pb-10  
-    ">
-      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container ">
+    " >
+      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container  overflow-hidden ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
         <p className='text-secondary text-[1.1rem] opacity-50 lg:mb-[0rem] mb-[2rem]'>Few of my personal projects</p>
-        <div className="experience-wrapper  rounded-xl px-6  border-opacity-[0.1] border-secondary 
-        pb-[50px] container lg:py-[4rem] mt-[20px]
+
+        {/*Mobile Projects list controller start */}
+        <motion.div className="scroll_wrapper lg:hidden"
+          initial={{ x: -200 }}
+          whileInView={{ x: 0 }}
+          transition={{ duration: 1 }}>
+          <ProjectScroll
+            project={project}
+            activeProject={activeProject}
+          />
+        </motion.div>
+
+        <div className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
+        pb-[50px] container lg:py-[4rem] mt-[20px]  
       ">
 
 
           <div className="main flex flex-col gap-[80px]
-        md:flex-row
+        md:flex-row lg:gap-[40px] lg:pl-[120px] 2xl:lg:pl-[0px] 
         ">
 
             {/* Projects list controller start */}
-
-            <ProjectScroll
-              project={project}
-              activeProject={activeProject}
-            />
+            <motion.div className="scroll_wrapper    hidden lg:flex 
+            lg:items-centser
+            "  initial={{ x: -200 }}
+              whileInView={{ x: 0 }}
+              transition={{ duration: 1 }}
+            >
+              <ProjectScroll
+                project={project}
+                activeProject={activeProject}
+              />
+            </motion.div>
 
             {/* 
            Projects description end  */}
             {projects.map((item, index) =>
-              <div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-1 gap-[20px] lg:gap-[40px]  justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}>
+              <motion.div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}
+                initial={{ x: 200 }}
+                whileInView={{ x: 0 }}
+                transition={{ duration: 1 }}
+              >
 
                 <div className="desc text-left flex flex-col flex-[1] justify-center
              
               ">
 
                   <div className="text-data">
-                    <h1 className='text-[white] text-[1.5rem]   mb-[10px]
+                    <h1 className='text-[white] text-[1.4rem]   mb-[10px]
                   lg:mb-[30px] lg:text-[1.6rem]  '>{item.head}</h1>
                     <p className='text-[white]'>{item.desc}</p>
 
@@ -57,7 +82,7 @@ export default function Projects({ project, activeProject }) {
                         return (
                           <div className="flex items-center gap-[10px] mt-[50px]">
                             <li key={index} className='text-secondary text-[0.9rem] md:text-[1.1rem] '>{tool}</li>
-                            <span><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <span ><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z" fill="#D6E869" />
                             </svg>
                             </span>
@@ -86,7 +111,7 @@ export default function Projects({ project, activeProject }) {
                   <img className='h-[100%] w-[100%]' src={item.pix} alt="" />
                 </div>
 
-              </div>
+              </motion.div>
               /* Projects description end */
 
             )

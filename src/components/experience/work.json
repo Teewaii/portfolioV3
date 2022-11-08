@@ -2,7 +2,8 @@
   {
     "id": 1,
     "company": "Rimal Int'l & co.",
-    "title": "Creative Designer - ",
+    "title": "Creative Designer ",
+    "type": "Full time",
     "year": "2020-2023",
     "desc": [
       "Consult with clients to establish the overall look of their project",
@@ -16,7 +17,8 @@
   {
     "id": 2,
     "company": "Sprout Digital ltd.",
-    "title": "Web Developer/Creative Designer - ",
+    "title": "Web Developer/Creative Designer  ",
+    "type": "Full time",
     "year": "2017-2019",
     "desc": [
       "Created website layout and user interface using standard HTML/CSS practices.",
@@ -30,7 +32,8 @@
   {
     "id": 3,
     "company": "240 Media Nig Ltd",
-    "title": "Graphic Designer - ",
+    "title": "Graphic Designer",
+    "type": "Full time",
     "year": "2015-2018",
     "desc": [
       "Created books and magazines layouts for companies and associations",
@@ -45,7 +48,8 @@
   {
     "id": 4,
     "company": "Final Touch Media",
-    "title": "Graphic Designer - ",
+    "title": "Graphic Designer ",
+    "type": "Per-time/Contract",
     "year": "2014-2016",
     "desc": [
       "Designed magazines and journals for specific clients of the company and also created gift collaterals for print production.",
@@ -58,7 +62,8 @@
   {
     "id": 5,
     "company": "Stainless Digital Colors Ltd.",
-    "title": "Graphic Designer - ",
+    "title": "Graphic Designer ",
+    "type": "Full time",
     "year": "2010-2015",
     "desc": [
       "Designed marketing collaterals and books for clients",
@@ -70,7 +75,8 @@
   {
     "id": 6,
     "company": "codeITng.",
-    "title": "Instructional Facilitator - ",
+    "title": "Instructional Facilitator ",
+    "type": "Volunteered",
     "year": "2018-2019",
     "about": "About codeIT: codeIT is one of the many innovations hosted by YouthHubAfrica and organized by Sprout Digital. It’s dedicated to growing young people in the area of computer science and tech, especially around promoting hardcore programming skills at an early age.",
     "desc": [
@@ -81,6 +87,7 @@
     "id": 7,
     "company": "YouthhubAfrica.",
     "title": "Creative Designer - ",
+    "type": "Volunteered",
     "year": "Oct 2019-Dec 2019",
     "about": "Youth Foundation for Development, Education & Leadership (YouthhubAfrica) is a non-profit organization founded in 2011. YouthhubAfrica is a platform for young people in Africa involved in social change to interact, learn and collaborate in new, creative and easy ways.",
     "desc": [
