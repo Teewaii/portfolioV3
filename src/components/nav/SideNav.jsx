@@ -33,7 +33,7 @@ export default function SideNav({ toggle, toggleMenu, setToggle }) {
 
       <div className="navwrapper flex flex-col items-center gap-20 ">
         <div className="logo opacity-20 group-hover:opacity-60 pl-2  duration-150 ease-in-out">
-          <img className='hidden lg:block w-14  2xl:w-18  ease-in-out duration-300' src={logo} alt="logo" />
+          <a href="#hero"><img className='hidden lg:block w-14  2xl:w-18  ease-in-out duration-300' src={logo} alt="logo" /></a>
         </div>
         {/* <div className="di h-6 lg:hidden"></div> */}
         <ul className='flex flex-col items-start pl-4 space-y-2 2xl:space-y-5 relative '>

@@ -44,13 +44,6 @@ module.exports = {
     //   // => @media (min-width: 1536px) { ... }
     // },
 
-    colors: {
-      'primary': '#012B48',
-      'secondary': '#75D0EE',
-      'green': '#D6E869',
-      'navbg': '#031E30',
-
-    },
     backgroundImage: {
       'spiral-lg': "url('../src/img/spiral-lg.svg')",
       'spiral-mob': "url('../src/img/spiral-mob.svg')",
@@ -62,9 +55,21 @@ module.exports = {
       'bkg': "url('../src/img/bkg.jpg')",
     },
 
-    extend: {},
+    extend: {
+      
+    colors: {
+      'primary': '#012B48',
+      'secondary': '#75D0EE',
+      'green': '#D6E869',
+      'navbg': '#031E30',
+
+    },
+    screens: {
+      '3xl': '1700px',
+    },
+    },
   },
   plugins: [
-    require('tailwind-scrollbar-hide')
+    require('tailwind-scrollbar-hide','tailwindcss/colors')
   ],
 }

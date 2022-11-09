@@ -13,7 +13,7 @@ export default function Experience() {
 
   return (
     <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[85vh]  bg-primary   ">
-      <div className="bucket  flex flex-col items-center py-[8rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px]  lg:max-w-[90%] 
+      <div className="bucket  flex flex-col items-center py-[8rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px] lg:max-w-[85%] 
      ">
         <h1 className='text-secondary lg:mb-[2rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Places I have worked</h1>
         <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col

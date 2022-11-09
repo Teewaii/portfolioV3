@@ -23,7 +23,7 @@ export default function Projects({ project, activeProject }) {
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
-        <p className='text-secondary text-[1.1rem] opacity-50 lg:mb-[0rem] mb-[2rem]'>Few of my personal projects</p>
+        <p className='text-secondary text-[1.1rem] opacity-50  mb-[2rem]'>Few of my personal projects</p>
 
 
         {/*Mobile Projects list controller start */}
@@ -38,12 +38,12 @@ export default function Projects({ project, activeProject }) {
         </motion.div>
 
         <div className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
-         container mt-[20px]   md:pl-[20px] lg:pl-[70px]  lg:max-w-[95%]
+         container mt-[20px]   md:pl-[20px] lg:pl-[70px]  3xl:pl-[100px] lg:max-w-[85%]  xl:max-w-[80%] 2xl:max-w-[92%]
       ">
 
 
           <div className="main flex flex-col gap-[80px] 
-        md:flex-row lg:gap-[20px] 
+        md:flex-row lg:gap-[20px] 2xl:gap-[80px] 
         ">
 
             {/* Projects list controller start */}
