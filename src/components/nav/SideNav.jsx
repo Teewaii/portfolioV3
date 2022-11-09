@@ -7,6 +7,7 @@ import logo from '../../img/logo.svg';
 import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { useState } from 'react';
+import { motion } from "framer-motion";
 
 
 import homeIcon from '../../img/home.svg';

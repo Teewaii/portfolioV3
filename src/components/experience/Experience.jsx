@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import hd from '../../img/shot.svg'
 import work from '../experience/work.json';
+import { motion } from "framer-motion";
+
+
+
 export default function Experience() {
   const [exp, setExp] = useState(0);
 
@@ -27,7 +31,7 @@ export default function Experience() {
               work.map((work, index) => {
                 return (
 
-                  <div className={exp === index ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary bg-opacity-[.05] rounded-t-lg after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4" : "tab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "}
+                  <div className={exp === index ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary  ease-in-out duration-300 bg-opacity-[.05] rounded-t-md after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4" : "tab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "}
                     onClick={() => activeTab(index)} key={index}
                   >{work.company}</div>
 

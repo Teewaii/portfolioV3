@@ -35,6 +35,10 @@ function App() {
     }
     setProject(index)
   }
+
+
+
+  
   return (
     <div className="App relative">
       {/* <Nav
