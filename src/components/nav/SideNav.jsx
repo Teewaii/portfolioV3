@@ -33,13 +33,13 @@ export default function SideNav({ toggle, toggleMenu, setToggle }) {
 
       <div className="navwrapper flex flex-col items-center gap-20 ">
         <div className="logo opacity-20 group-hover:opacity-60 pl-2  duration-150 ease-in-out">
-          <img className='hidden lg:block w-14 lg:w-14 2xl:w-20  ease-in-out duration-300' src={logo} alt="logo" />
+          <img className='hidden lg:block w-14  2xl:w-18  ease-in-out duration-300' src={logo} alt="logo" />
         </div>
         {/* <div className="di h-6 lg:hidden"></div> */}
-        <ul className='flex flex-col items-start pl-4 space-y-2 2xl:space-y-8 relative '>
+        <ul className='flex flex-col items-start pl-4 space-y-2 2xl:space-y-5 relative '>
 
           {links.map((item, index) => (
-            <li onClick={() => FocusItem(index)} key={item.id} className={focusItem === index ? 'bg-primary pl-6 py-3 lg:py-3 2xl:py-4  hover:bg-primary  ease-in-out duration-300 rounded-tl-md rounded-bl-md w-[100%]  pr-8 ' : 'linc  pl-6 py-3 lg:py-3 2xl:py-4 hover:bg-primary  ease-in-out duration-150  rounded-tl-md rounded-bl-md w-[100%] pr-8'}><a href={item.anchor} className='flex gap-7 cursor-pointer focus:bg-primary '><img className='h-5 lg:h-4 2xl:h-6 inline ' src={item.icon} alt="" /> <p className='text-sm uppercase 2xl:text-md w-[100%] group-hover:flex item-start pr-8 hidden  '>{item.title}</p></a></li>
+            <li onClick={() => FocusItem(index)} key={item.id} className={focusItem === index ? 'bg-primary pl-6 py-3 lg:py-3 2xl:py-4  hover:bg-primary  ease-in-out duration-300 rounded-tl-md rounded-bl-md w-[100%]  pr-8 ' : 'linc  pl-6 py-3 lg:py-3 2xl:py-4 hover:bg-primary  ease-in-out duration-150  rounded-tl-md rounded-bl-md w-[100%] pr-8'}><a href={item.anchor} className='flex gap-7 cursor-pointer focus:bg-primary '><img className='h-5 lg:h-4 2xl:h-5 inline ' src={item.icon} alt="" /> <p className='text-sm uppercase 2xl:text-md w-[100%] group-hover:flex item-start pr-8 hidden  '>{item.title}</p></a></li>
 
           ))}
 

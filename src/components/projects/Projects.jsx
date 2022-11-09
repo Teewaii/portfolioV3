@@ -16,17 +16,18 @@ export default function Projects({ project, activeProject }) {
 
 
   return (
-    <section id='projects' className="project min-h-[100vh] lg:[90vh] bg-primary  
-     flex justify-center items-center  md:py-[10rem] pb-10  
+    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] bg-primary  
+     flex justify-center items-center  md:py-[7rem] pb-10  
     " >
-      <div className="bucket flex flex-col items-center pt-[8rem]  md:pt-[2rem] container  overflow-hidden ">
+      <div className="bucket flex flex-col items-center  container  overflow-hidden ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
         <p className='text-secondary text-[1.1rem] opacity-50 lg:mb-[0rem] mb-[2rem]'>Few of my personal projects</p>
 
+
         {/*Mobile Projects list controller start */}
-        <motion.div className="scroll_wrapper lg:hidden"
+        <motion.div className="scroll_wrapper lg:hidden" 
           initial={{ x: -200 }}
           whileInView={{ x: 0 }}
           transition={{ duration: 1 }}>
@@ -37,12 +38,12 @@ export default function Projects({ project, activeProject }) {
         </motion.div>
 
         <div className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
-        pb-[50px] container lg:py-[4rem] mt-[20px]  
+         container mt-[20px]   md:pl-[20px] lg:pl-[70px]  lg:max-w-[95%]
       ">
 
 
-          <div className="main flex flex-col gap-[80px]
-        md:flex-row lg:gap-[40px] lg:pl-[120px] 2xl:lg:pl-[0px] 
+          <div className="main flex flex-col gap-[80px] 
+        md:flex-row lg:gap-[20px] 
         ">
 
             {/* Projects list controller start */}
@@ -72,16 +73,16 @@ export default function Projects({ project, activeProject }) {
               ">
 
                   <div className="text-data">
-                    <h1 className='text-[white] text-[1.4rem]   mb-[10px]
-                  lg:mb-[30px] lg:text-[1.6rem]  '>{item.head}</h1>
-                    <p className='text-[white]'>{item.desc}</p>
+                    <h1 className='text-[white] text-lg  mb-[10px]
+                  lg:mb-[20px] lg:text-xl  '>{item.head}</h1>
+                    <p className='text-secondary opacity-60 text-sm'>{item.desc}</p>
 
 
                     <ul className='flex gap-[20px] border-b pb-[20px] border-secondary border-opacity-20'>
                       {item.tools.map((tool, index) => {
                         return (
                           <div className="flex items-center gap-[10px] mt-[50px]">
-                            <li key={index} className='text-secondary text-[0.9rem] md:text-[1.1rem] '>{tool}</li>
+                            <li key={index} className='text-secondary text-[0.9rem] md:text-sm '>{tool}</li>
                             <span ><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z" fill="#D6E869" />
                             </svg>
@@ -97,7 +98,7 @@ export default function Projects({ project, activeProject }) {
                         <path className='group-hover:fill-green ' d="M7.49361 3.87784C7.49288 4.03639 7.46094 4.19325 7.39959 4.33946C7.33824 4.48566 7.2487 4.61836 7.13607 4.72996C7.02344 4.84156 6.88994 4.92988 6.74318 4.98989C6.59641 5.0499 6.43927 5.08041 6.28072 5.07968C6.12216 5.07896 5.9653 5.04701 5.8191 4.98566C5.67289 4.92431 5.5402 4.83477 5.42859 4.72214C5.31699 4.60952 5.22867 4.47601 5.16866 4.32925C5.10866 4.18248 5.07814 4.02534 5.07887 3.86678C5.08255 3.20212 5.63958 2.66187 6.31407 2.66883C6.96441 2.6762 7.49811 3.22299 7.49361 3.87784Z" fill="#75D0EE" />
                       </svg></a>
                       </span>
-                      <span className=' cursor-pointer'><a href={item.git} target='none'><svg width="23" height="23" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <span className=' cursor-pointer '><a href={item.git} target='none'><svg width="23" height="23" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path className='hover:fill-green w-[20px] h-[20px]' d="M3.20702 5.91139C3.11304 5.89424 2.99737 5.8775 2.88331 5.8524C2.22063 5.70722 1.72261 5.35912 1.53465 4.64202C1.49602 4.49111 1.46916 4.3372 1.45433 4.18179C1.40453 3.69354 1.48485 3.24001 1.80053 2.85175C1.81342 2.83194 1.8222 2.80952 1.82628 2.78596C1.83036 2.7624 1.82966 2.73821 1.82422 2.71494C1.7439 2.42207 1.76478 2.13297 1.8431 1.84178C1.87563 1.72087 1.93306 1.68572 2.04833 1.70036C2.35879 1.7422 2.62667 1.88738 2.88491 2.05683C2.91795 2.08136 2.95585 2.09785 2.99582 2.10509C3.03578 2.11233 3.0768 2.11014 3.11585 2.09866C3.63507 1.96149 4.17746 1.94933 4.70186 2.0631C4.90669 2.10787 5.06855 2.09741 5.24526 1.97231C5.4518 1.82316 5.69071 1.72985 5.94047 1.70078C6.04248 1.68949 6.09791 1.71501 6.12923 1.8263C6.20233 2.0903 6.23526 2.35597 6.1694 2.62123C6.13767 2.74674 6.16136 2.83042 6.23687 2.93376C6.50837 3.29691 6.55817 3.71864 6.52765 4.16631C6.46941 5.04492 6.02401 5.61601 5.2067 5.82227C5.05248 5.8616 4.89424 5.88545 4.72475 5.9185C4.92035 6.14066 4.97818 6.39755 4.97738 6.6741C4.97738 7.02596 4.97416 7.37782 4.97376 7.72968C4.97376 7.95143 5.08662 8.04138 5.28823 7.97109C7.46905 7.2134 8.6189 4.70561 7.65782 2.46266C6.7879 0.433082 4.52033 -0.532127 2.53952 0.297108C1.00732 0.940999 0.120533 2.14385 0.0100863 3.86717C-0.0895165 5.42146 0.551877 6.64565 1.78727 7.51421C2.06319 7.70834 2.38489 7.83428 2.69254 7.97444C2.84676 8.04514 2.98813 7.96188 2.99375 7.8142C3.00219 7.58074 2.99576 7.34686 2.99576 7.10755C2.87246 7.1201 2.76161 7.13642 2.65077 7.14185C2.18167 7.16361 1.78808 6.95358 1.61899 6.48834C1.53641 6.25863 1.3843 6.06316 1.18564 5.93147C1.12981 5.89382 1.09849 5.81767 1.05592 5.7591C1.12941 5.74069 1.20251 5.72186 1.27641 5.70471C1.28725 5.7022 1.30051 5.70973 1.31296 5.71224C1.56317 5.76705 1.72703 5.93691 1.86238 6.1507C2.115 6.54984 2.50498 6.6741 2.9303 6.49211C2.96394 6.47926 2.99231 6.45474 3.01062 6.42265C3.0805 6.2553 3.14195 6.08418 3.20702 5.91139Z" fill="#75D0EE" />
                       </svg></a>
                       </span>

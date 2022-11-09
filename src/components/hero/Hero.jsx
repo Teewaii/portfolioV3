@@ -15,8 +15,8 @@ export default function Hello() {
                '>Hi, I'm</h2>
     <h1 className='name text-secondary text-xl sm:text-3xl lg:text-2xl leading:lg  mb-8 lg:mb-8  opacity-40      
                   '>Ajimati Taiye,</h1>
-  <h1 className='header font-700  text-[white] text-left mb-4 leading-10 sm:text-5xl 2xl:text-8xl xl:max-w-[75%] 2xl:max-w-[70%] lg:leading-[60px] 2xl:leading-[120px] tracking-normal ' >I <span className='text-green'>Design</span>  & <span className='text-green'>Build</span>  Web Based Software Solutions!</h1>
-  <p className="body text-secondary text-sm opacity-40 text-left lg:text-md 2xl:text-2xl md:max-w-[600px] 2xl:max-w-[60%]   mb-10 xl:mb-14 2xl:mb-24
+  <h1 className='header font-700  text-[white] text-left mb-4 leading-10 sm:text-5xl 2xl:text-7xl xl:max-w-[75%] 2xl:max-w-[70%] lg:leading-[60px] 2xl:leading-[90px] tracking-normal ' >I <span className='text-green'>Design</span>  & <span className='text-green'>Build</span>  Web Based Software Solutions!</h1>
+  <p className="body text-secondary text-sm opacity-40 text-left lg:text-md 2xl:text-lg md:max-w-[600px] 2xl:max-w-[60%]   mb-10 xl:mb-14 2xl:mb-24
                ">I’m a  software engineer with focus in frontend development and I occassionly design products & sevices with great experience and accessibility. </p>
 
 <Btn />

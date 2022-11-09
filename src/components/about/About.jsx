@@ -21,10 +21,10 @@ const tools = [
 
 export default function About() {
   return (
-    <section id='about' className='about min-h-[100vh] flex py-[150px] 
-    md:pb-[40px] md:py-[200px]      
+    <section id='about' className='about min-h-[100vh]  flex items-center justify-center py-[150px] 
+     md:py-[50px] lg:py-[120px] 2xl:py-[80px]  lg:min-h-[95vh]    
     '>
-      <div className="aboutWrapper max-w-[85%] md:pl-[20px] 2xl:pl-[150px]  container flex flex-col lg:flex-row items-center justify-center ">
+      <div className="aboutWrapper max-w-[85%] md:pl-[20px] 2xl:pl-[150px]   container flex flex-col lg:flex-row items-center justify-center ">
         <div className='bucket flex items-center lg:pl-[120px] 2xl:lg:pl-[0px]  flex-col lg:items-start  gap-[90px]  lg:gap-[20px]  
     md:flex-row 
     ' >
@@ -32,8 +32,8 @@ export default function About() {
             <h2 className=" text-primary text-[25px]  lg:text-[30px] font-medium  mb-[35px]">About <span className='text-green font-bold bg-primary rounded-full 
            px-2 py-3  lg:px-3 lg:py-4          
           ' >me!</span></h2>
-            <p className='text-primary   mt-[20px] w-[95%] leading-[30px] relative font-[300]
-      border-b-[1px] border-lightprim pb-[30px] md:text-[15px] 2xl:text-[19px] 2xl:leading-[38px]
+            <p className='text-primary   mt-[20px] w-[90%] leading-[25px] relative font-[300]
+      border-b-[1px] border-lightprim pb-[30px] md:text-md md:leading-6
         
         '>Hi, I’m Taiye and I love building software products & services that promotes business and economic growths with great user experience and accessibility. <br /><br />
 
@@ -45,7 +45,7 @@ export default function About() {
             <div className="toosl">
               <h1 className='tools-used text-primary  text-[18px] mt-[30px] '>Few of the tools I’ve been working with!</h1>
 
-              <ul className='tool-list text-primary flex flex-wrap  gap-[20px] mt-[13px]'>
+              <ul className='tool-list text-primary flex flex-wrap  gap-[10px] mt-[13px]'>
 
                 {tools.map((tool) => (
                   <li key={tool} className='flex gap-[10px] items-center' ><span><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
