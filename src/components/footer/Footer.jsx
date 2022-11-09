@@ -8,10 +8,10 @@ import { motion } from "framer-motion";
 export default function Footer() {
   return (
     <section id='footer' className=' bg-primary relative py-[2rem] min-h-[50vh]
-    2xl:min-h-[40vh] lg:pt-24
+    2xl:min-h-[40vh]  lg:py-[1rem] 
     '>
       <div className="footer-wrapper flex flex-col items-center 
-      lg:pl-[120px] 2xl:lg:pl-[0px] 
+      lg:pl-[120px] 2xl:lg:pl-[0px]  
       ">
         <motion.div className="hello"
           initial={{ y: -70 }}

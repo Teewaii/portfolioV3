@@ -21,11 +21,11 @@ const tools = [
 
 export default function About() {
   return (
-    <section id='about' className='about min-h-[100vh]  flex items-center justify-center py-[150px] 
+    <section id='about' className='about min-h-[100vh]  flex items-center justify-center py-[130px] 
      md:py-[50px] lg:py-[120px] 2xl:py-[80px]  lg:min-h-[95vh]    
     '>
-      <div className="aboutWrapper max-w-[85%] md:pl-[20px] 2xl:pl-[150px]   container flex flex-col lg:flex-row items-center justify-center ">
-        <div className='bucket flex items-center lg:pl-[120px] 2xl:lg:pl-[0px] 3xl:max-w-[85%]   flex-col lg:items-start  gap-[90px]  lg:gap-[20px]  
+      <div className="aboutWrapper lg:max-w-[85%] md:pl-[20px] 2xl:pl-[150px]   container flex flex-col lg:flex-row items-center justify-center ">
+        <div className='bucket flex items-center lg:pl-[120px] 2xl:lg:pl-[0px]  3xl:max-w-[85%]   flex-col lg:items-start  gap-[90px]  lg:gap-[20px]  
     md:flex-row 
     ' >
           <div className="desc text-left flex-[1]  ">

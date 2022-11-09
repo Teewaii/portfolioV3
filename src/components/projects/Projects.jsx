@@ -16,7 +16,7 @@ export default function Projects({ project, activeProject }) {
 
 
   return (
-    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] bg-primary  
+    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] xl:min-h-[85vh] 2xl:min-h-[80vh] 3xl:min-h-[70vh] bg-primary  
      flex justify-center items-center  md:py-[7rem] pb-10  
     " >
       <div className="bucket flex flex-col items-center  container  overflow-hidden ">
@@ -38,7 +38,7 @@ export default function Projects({ project, activeProject }) {
         </motion.div>
 
         <div className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
-         container mt-[20px]   md:pl-[20px] lg:pl-[70px]  3xl:pl-[100px] lg:max-w-[85%]  xl:max-w-[80%] 2xl:max-w-[92%]
+         container mt-[20px]   md:pl-[20px] lg:pl-[70px]  3xl:pl-[100px] lg:max-w-[80%]  
       ">
 
 

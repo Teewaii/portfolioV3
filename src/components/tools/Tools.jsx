@@ -5,7 +5,7 @@ export default function Tools() {
 
 
     <section className="tools relative bg-[white] w-screen 
-    lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[55%]  lg:after:top-[50%] lg:after:bg-secondary lg:after:h-[2px]  after:opacity-50  ">
+    lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[75%]  lg:after:top-[50%] lg:after:bg-secondary lg:after:h-[2px]  after:opacity-50  ">
       <div className='hero bg-spiral-mob flex  bg-no-repeat bg-cover bg-bottom bg-opacity-[0.5] h-[20vh] 
     lg:bg-spiral-lg  lg:min-h-[18vh]  relative after:absolute w-[100%]  
     after:bg-secondary after:top-0 after:bottom-0 after:left-0  
@@ -16,7 +16,7 @@ export default function Tools() {
         ">
           <h1 className=' font-medium opacity-40 text-[1rem] lg:text-md relative'>My tool box</h1>
 
-          <div className="icons flex   gap-[8px]  lg:gap-[30px] 
+          <div className="icons flex   gap-[8px]  lg:gap-[30px] scale-[0.65] lg:scale-[1]
       
       ">
             <div className="html relative group cursor-pointer "><svg width="36" height="50" viewBox="0 0 60 68" fill="none" xmlns="http://www.w3.org/2000/svg">
