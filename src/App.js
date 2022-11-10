@@ -35,23 +35,32 @@ function App() {
     }
     setProject(index)
   }
+  const [shadow, setShadow] = useState(false);
+  function NavShadow() {
+    if (window.scrollY >= 120) {
+      setShadow(true)
+    } else {
+      setShadow(false)
+    }
+  }
+  window.addEventListener('scroll', NavShadow)
 
 
 
   
   return (
-    <div className="App relative">
+    <div className="App relative ">
       {/* <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
         setToggle={setToggle}
       /> */}
-
+<div className="navi z-[200]">
       <SideNav
         toggle={toggle}
         toggleMenu={toggleMenu}
         setToggle={setToggle}
-      />
+      /></div>
 
       < Hero />
       <About />
@@ -61,19 +70,19 @@ function App() {
         activeProject={activeProject} />
       <Footer />
       <Socials />
-      <ScrollToTop style={{ color: '#146284' }} smooth component={<ChevronUpIcon />} />
+      <ScrollToTop  style={{ color: '#146284',  }} smooth component={<ChevronUpIcon />} />
       {!toggle &&
-        <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0" onClick={toggleMenu}></div>}
+        <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0 " onClick={toggleMenu}></div>}
 
       {/* Hamburger */}
-      <div className="topNav   absolute top-8 right-0 z-[2900] lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 ">
-        <div className="logo opacity-20">
+      <div className={shadow ?"topNav   fixed bg-primary  top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 NavShadow  shadow-2xl ":"topNav   fixed bg-primary b top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 "}>
+        <div className="logo  opacity-20">
           <img src={logo} alt="logo" />
         </div>
         <div className="toggles " onClick={toggleMenu}  >
           {toggle ?
-            <img className='lg:hidden w-[35px]   cursor-pointer' src={hamburger} alt="hamburger" /> :
-            <img className='lg:hidden w-[32px]   cursor-pointer' src={close} alt="close-menu" />}
+            <img className='lg:hidden w-[30px]   cursor-pointer' src={hamburger} alt="hamburger" /> :
+            <img className='lg:hidden w-[27px]   cursor-pointer' src={close} alt="close-menu" />}
 
         </div>
       </div>

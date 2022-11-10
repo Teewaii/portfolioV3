@@ -17,12 +17,14 @@ export default function Experience() {
 
   return (
     <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[80vh] 3xl:min-h-[70vh] bg-primary   ">
-      <div className="bucket  flex flex-col items-center py-[8rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
+      <div className="bucket  flex flex-col items-center py-[4rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
      ">
         <h1 className='text-secondary lg:mb-[2rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Places I have worked</h1>
-        <div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
+        <motion.div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[2rem] mt-[20px]
-      ">
+      "  initial={{ x: 20 }}
+      whileInView={{ x: 0 }}
+      transition={{ duration: 1 }}>
 
           <div className='tabs-head  text-[1.4rem] text-secondary py-[0.6rem] 
         flex   border-opacity-[0.1] border-secondary overflow-auto overflow-y-hidden lg:pt-[0rem] lg:pb-[10px] lg:border-b-2
@@ -75,7 +77,7 @@ export default function Experience() {
               })
             }
           </div>
-        </div>
+        </motion.div>
       </div>
 
 
