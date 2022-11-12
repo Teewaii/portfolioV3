@@ -3,12 +3,14 @@ import Nav from '../nav/Nav';
 // import Btn_sec from '../btn/Btn-sec';
 import Email from '../btn/Email';
 import { motion } from "framer-motion";
+import socialsMob from '../socials/SocialsMob';
+import SocialsMob from '../socials/SocialsMob';
 
 
 export default function Footer() {
   return (
     <section id='footer' className=' bg-primary relative py-[2rem] min-h-[50vh]
-    2xl:min-h-[40vh]  lg:py-[1rem] 
+    2xl:min-h-[40vh]  lg:py-[3rem] 
     '>
       <div className="footer-wrapper flex flex-col items-center 
       lg:pl-[120px] 2xl:lg:pl-[0px]  
@@ -16,14 +18,14 @@ export default function Footer() {
         <motion.div className="hello"
           initial={{ y: -70 }}
           whileInView={{ y: 0 }}
-          transition={{ duration: 0.5 }}>
+          transition={{ duration: 1 }}>
           <h1 className='text-secondary font-normal text-[2rem]   lg:text-4xl '>Say <span className='opacity-[0.6]'>Hello</span>!</h1>
           <p className='text-secondary mb-[42px] text-[0.8rem] w-[250px] md:w-[600px] md:text-lg opacity-50 text-center'>Get in touch and discover how I can contribute to the growth of your business and team.</p>
         </motion.div>
         <motion.div className='next flex flex-col items-center pb-[80px]  lg:pb-[0px] '
           initial={{ y: 70 }}
           whileInView={{ y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
         >
           <div className="circle rounded-full w-[50px] h-[50px] border-[2px] animate-bounce border-green flex items-center justify-center">
             <span><svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,12 +34,17 @@ export default function Footer() {
             </span>
           </div>
           <Email />
-        </motion.div>
 
+        </motion.div>
+        <div className="soc ">  <SocialsMob /></div>
         <div className="copywright opacity-50 border-t w-[100%] border-secondary border-opacity-30 pt-7 lg:mt-[50px]">
           <p className='text-secondary text-[0.7rem] lg:text-sm'>Designed & Developed by Taiye Ajimati</p>
           <small className='text-secondary text-[0.7rem] md:text-[0.9rem]'>taiyeajimati@gmail.com</small>
         </div>
+      </div>
+      <div className="social">
+
+
       </div>
 
     </section >

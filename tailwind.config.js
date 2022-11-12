@@ -56,20 +56,22 @@ module.exports = {
     },
 
     extend: {
-      
-    colors: {
-      'primary': '#012B48',
-      'secondary': '#75D0EE',
-      'green': '#D6E869',
-      'navbg': '#031E30',
 
-    },
-    screens: {
-      '3xl': '1700px',
-    },
+      colors: {
+        'primary': '#040429',
+        // 'primary': '#012B48',
+        'secondary': '#75D0EE',
+        'green': '#D6E869',
+        'navbg': '#02021a',
+        // 'navbg': '#031E30',
+
+      },
+      screens: {
+        '3xl': '1700px',
+      },
     },
   },
   plugins: [
-    require('tailwind-scrollbar-hide','tailwindcss/colors')
+    require('tailwind-scrollbar-hide', 'tailwindcss/colors')
   ],
 }

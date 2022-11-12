@@ -28,11 +28,11 @@ export default function About() {
         <div className='bucket flex items-center lg:pl-[120px]  3xl:max-w-[80%]   flex-col lg:items-start  gap-[90px]  lg:gap-[20px]  
     md:flex-row 
     ' >
-          <div className="desc text-left flex-[1]  ">
+          <div className="desc text-left flex-[1] lg:flex-[1.3] xl:flex-[1]   ">
             <h2 className=" text-primary text-[25px]  lg:text-[30px] font-medium  mb-[35px]">About <span className='text-green font-bold bg-primary rounded-full 
            px-2 py-3  lg:px-3 lg:py-4          
           ' >me!</span></h2>
-            <p className='text-primary   mt-[20px] w-[95%] md:w-[70%] leading-[25px] relative font-[300]
+            <p className='text-primary   mt-[20px] w-[95%] md:w-[70%] lg:w-[95%] leading-[25px] relative font-[300]
       border-b-[1px] border-lightprim pb-[30px] md:text-md md:leading-6
         
         '>Hi, I’m Taiye and I love building software products & services that promotes business and economic growths with great user experience and accessibility. <br /><br />
@@ -42,7 +42,7 @@ export default function About() {
               My interest in software  development started in 2013 with visual basic. In 2016 I developed more interest in web development through which I was priviledged to work on different amazing web projects across different industries  specificaly using WordPress.<br /> <br />
 
               Presently, I spend most of my time building more complex and scalable projects using react and vanila Js.</p>
-            <div className="toosl w-[95%] md:w-[70%]">
+            <div className="toosl w-[95%] md:w-[70%]  lg:w-[100%]">
               <h1 className='tools-used text-primary  text-[18px] mt-[30px] '>Few of the tools I’ve been working with!</h1>
 
               <ul className='tool-list text-primary flex flex-wrap gap-[5px] md:gap-[10px] mt-[13px]'>
@@ -63,7 +63,7 @@ export default function About() {
        " initial={{ y: -50, opacity: 0.2 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 1 }}>
-            <img className=' scale-[0.8] md:scale-[1]  w-[fit] md:w-[50%]' src={hdshot} alt="head shot" />
+            <img className=' scale-[0.8] md:scale-[1]  w-[fit] md:w-[50%] lg:mt-12' src={hdshot} alt="head shot" />
 
           </motion.div>
 

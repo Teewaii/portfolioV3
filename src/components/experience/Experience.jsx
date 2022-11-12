@@ -16,15 +16,15 @@ export default function Experience() {
   }
 
   return (
-    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[80vh] 3xl:min-h-[70vh] bg-primary   ">
-      <div className="bucket  flex flex-col items-center py-[4rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
+    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[80vh] 3xl:min-h-[70vh] bg-primary relative after:absolute after:top-[-10%] after:right-[-10%] after:bg-secondary after:w-[35%] after:h-[55%] after:rounded-full after:blur-3xl after:opacity-[0.08]     before:absolute before:bottom-[20%] before:left-[15%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.05] overflow-hidden ">
+      <div className="bucket  flex flex-col items-center py-[7rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
      ">
         <h1 className='text-secondary lg:mb-[2rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Places I have worked</h1>
         <motion.div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[2rem] mt-[20px]
       "  initial={{ x: 20 }}
-      whileInView={{ x: 0 }}
-      transition={{ duration: 1 }}>
+          whileInView={{ x: 0 }}
+          transition={{ duration: 1 }}>
 
           <div className='tabs-head  text-[1.4rem] text-secondary py-[0.6rem] 
         flex   border-opacity-[0.1] border-secondary overflow-auto overflow-y-hidden lg:pt-[0rem] lg:pb-[10px] lg:border-b-2
@@ -52,10 +52,12 @@ export default function Experience() {
 
                   <div className={exp === index ? "content text-left lg:ml-[30px] pt-[30px]" : "tab hidden"}
                     onClick={() => activeTab(index)} key={index} >
-                    <div className="top flex flex-col lg:flex-row mb-[40px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
+                    <div className="top flex flex-col lg:flex-row mb-[20px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
                       <h1 className='text-[white] text-xl '>{work.title}</h1>
-                      <span className='text-secondary '>({work.type}) </span>
-                      <h2 className='text-md text-green'>- {work.year}</h2>
+                      <div className="duration flex gap-2 items-center">
+                        <span className='text-secondary '>({work.type}): </span>
+                        <h2 className='text-md text-green'> {work.year}</h2>
+                      </div>
                     </div>
                     <span className='text-secondary opacity-40 pb-[30px] text-sm'>{work.about}</span>
                     <ul className='space-y-2 mt-3'>

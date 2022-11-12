@@ -14,6 +14,7 @@ import ScrollToTop from "react-scroll-to-top";
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
 import Projects from './components/projects/Projects';
 import Footer from './components/footer/Footer';
+import SocialsMob from './components/socials/SocialsMob';
 // import Contact from './components/contact/Contact';
 
 
@@ -47,20 +48,20 @@ function App() {
 
 
 
-  
+
   return (
-    <div className="App relative ">
+    <main className="App relative ">
       {/* <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
         setToggle={setToggle}
       /> */}
-<div className="navi z-[200]">
-      <SideNav
-        toggle={toggle}
-        toggleMenu={toggleMenu}
-        setToggle={setToggle}
-      /></div>
+      <div className="navi z-[200]">
+        <SideNav
+          toggle={toggle}
+          toggleMenu={toggleMenu}
+          setToggle={setToggle}
+        /></div>
 
       < Hero />
       <About />
@@ -69,13 +70,14 @@ function App() {
         project={project}
         activeProject={activeProject} />
       <Footer />
+      {/* <SocialsMob /> */}
       <Socials />
-      <ScrollToTop  style={{ color: '#146284',  }} smooth component={<ChevronUpIcon />} />
+      <ScrollToTop style={{ color: '#146284', }} smooth component={<ChevronUpIcon />} />
       {!toggle &&
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0 " onClick={toggleMenu}></div>}
 
       {/* Hamburger */}
-      <div className={shadow ?"topNav   fixed bg-primary  top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 NavShadow  shadow-2xl ":"topNav   fixed bg-primary b top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 "}>
+      <div className={shadow ? "topNav   fixed bg-primary  top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 NavShadow  shadow-2xl " : "topNav   fixed bg-primary b top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 "}>
         <div className="logo  opacity-20">
           <img src={logo} alt="logo" />
         </div>
@@ -89,7 +91,7 @@ function App() {
 
 
 
-    </div>
+    </main>
 
 
   );
