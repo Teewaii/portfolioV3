@@ -25,24 +25,7 @@ module.exports = {
 
       center: true,
     },
-    // screens: {
-    //   'sm': '640px',
-    //   // => @media (min-width: 640px) { ... }
-
-    //   'md': '768px',
-    //   // => @media (min-width: 768px) { ... }
-
-    //   'lg': '1024px',
-    //   // => @media (min-width: 1024px) { ... }
-
-    //   'xl': '1280px',
-    //   // => @media (min-width: 1280px) { ... }
-
-    //   '2xl': '1536px',
-    //   // => @media (min-width: 1536px) { ... }
-    //   '3xl': '2560px',
-    //   // => @media (min-width: 1536px) { ... }
-    // },
+   
 
     backgroundImage: {
       'spiral-lg': "url('../src/img/spiral-lg.svg')",
@@ -58,12 +41,22 @@ module.exports = {
     extend: {
 
       colors: {
-        'primary': '#040429',
+
+
+        'primary': '#0c25b3',
         // 'primary': '#012B48',
         'secondary': '#75D0EE',
+        // 'green': '#E4AB00',
         'green': '#D6E869',
-        'navbg': '#02021a',
+        'navbg': '#050e80',
         // 'navbg': '#031E30',
+        // 'primary': '#00007A',
+        // // 'primary': '#012B48',
+        // 'secondary': '#75D0EE',
+        // // 'green': '#E4AB00',
+        // 'green': '#D6E869',
+        // 'navbg': '#00004D',
+        // // 'navbg': '#031E30',
 
       },
       screens: {

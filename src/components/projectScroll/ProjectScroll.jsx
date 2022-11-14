@@ -15,10 +15,10 @@ export default function projectScroll({ project, activeProject }) {
 
           {/* Projects list controller start */}
           <div className="project-list   text-left flex-[1]  border-opacity-[0.1] border-secondary 
-         flex lg:flex-col gap-4 md:border-b-[0px]  overflow-auto relative after:absolute after:top-0 after:bottom-0 md:after:right-[2px]  md:after:w-[1.5px] md:after:bg-secondary md:after:opacity-[0.07]
+         flex lg:flex-col gap-4 md:border-b-[0px]  overflow-auto relative after:absolute after:top-0 after:bottom-0 md:after:right-[2px]  md:after:w-[2px] md:after:bg-secondary md:after:opacity-[0.18]
          ">
             {projects.map((item, index) =>
-              <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary rounded-bl-md rounded-tl-md ease-in-out duration-300 bg-opacity-[0.05] text-sm  font-normal py-[15px] px-[20px] after:absolute after:bg-secondary  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 lg:after:top-0  lg:after:bottom-[0] lg:after:left-[97%] lg:after:right-[1px]  after:rounded-xl cursor-pointer after:delay-100 ' : 'text-[white] relative text-sm md:text-sm font-normal py-[15px] px-[20px] min-w-fit cursor-pointer hover:after:top-0  hover:after:bottom-[0] hover:after:left-[98%] hover:after:right-[1px] hover:bg-secondary hover:bg-opacity-[0.1]'}
+              <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary lg:rounded-bl-md rounded-tl-md ease-in-out duration-300 bg-opacity-[0.13] text-sm  font-normal py-[15px] px-[20px] after:absolute after:bg-secondary  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 lg:after:top-0  lg:after:bottom-[0] lg:after:left-[97%] lg:after:right-[1px]  after:rounded-xl cursor-pointer after:delay-100 ' : 'text-[white] relative text-sm md:text-sm font-normal py-[15px] px-[20px] min-w-fit cursor-pointer hover:after:top-0  hover:after:bottom-[0] hover:after:left-[98%] hover:after:right-[1px] hover:bg-secondary hover:bg-opacity-[0.1]'}
                 onClick={() => activeProject(index)}
               >
                 {item.title}</h1>

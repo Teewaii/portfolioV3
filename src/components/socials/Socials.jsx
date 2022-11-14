@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Socials() {
     return (
-        <motion.div className='fixed hidden lg:flex justify-center items-center w-[49px] right-0 bottom-[15%] bg-secondary
+        <motion.div className='fixed hidden lg:flex justify-center items-center w-[49px] right-0 bottom-[15%] bg-green
         h-[140px] rounded-tl-[10px] rounded-bl-[10px] hover:bg-secondary z-[50] 
        scale-[0.7] md:scale-[0.9] md:top-[35%] lg:h-[120px] lg:w-[40px]
         '

@@ -16,14 +16,14 @@ export default function Projects({ project, activeProject }) {
 
 
   return (
-    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] xl:min-h-[85vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
-     flex justify-center items-center  md:py-[7rem] xl:py-[5rem] pb-10 
+    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
+     flex justify-center items-center  md:py-[7rem] xl:py-[0rem] pb-10 
     " >
       <div className="bucket flex flex-col items-center py-24 lg:py-0  container  overflow-hidden ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
-        <p className='text-secondary text-[1.1rem] opacity-50  mb-[2rem]'>Few of my personal projects</p>
+        <p className='text-white text-[1.1rem] opacity-80  mb-[2rem]'>Few of my personal projects</p>
 
 
         {/*Mobile Projects list controller start */}
@@ -64,7 +64,7 @@ export default function Projects({ project, activeProject }) {
             {/* 
            Projects description end  */}
             {projects.map((item, index) =>
-              <motion.div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-secondary bg-opacity-[0.06] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}
+              <motion.div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-white bg-opacity-[0.08] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}
                 initial={{ x: 20 }}
                 whileInView={{ x: 0 }}
                 // viewport={{once: true}}
@@ -79,14 +79,14 @@ export default function Projects({ project, activeProject }) {
                   <div className="text-data ">
                     <h1 className='text-[white] text-lg  mb-[10px]
                   lg:mb-[20px] lg:text-xl  '>{item.head}</h1>
-                    <p className='text-secondary opacity-60 text-sm'>{item.desc}</p>
+                    <p className='text-white opacity-80 text-sm'>{item.desc}</p>
 
 
                     <ul className='flex gap-[20px] border-b pb-[20px] border-secondary border-opacity-20'>
                       {item.tools.map((tool, index) => {
                         return (
                           <div className="flex items-center gap-[10px] mt-[50px]">
-                            <li key={index} className='text-secondary text-[0.9rem] md:text-sm '>{tool}</li>
+                            <li key={index} className='text-white text-[0.9rem] md:text-sm '>{tool}</li>
                             <span ><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z" fill="#D6E869" />
                             </svg>

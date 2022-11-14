@@ -10,19 +10,19 @@ import SocialsMob from '../socials/SocialsMob';
 export default function Footer() {
   return (
     <section id='footer' className=' bg-primary relative py-[2rem] min-h-[50vh]
-    2xl:min-h-[40vh]  lg:py-[3rem] 
+    2xl:min-h-[40vh]  lg:pt-[9rem] 
     '>
       <div className="footer-wrapper flex flex-col items-center 
       lg:pl-[120px] 2xl:lg:pl-[0px]  
       ">
-        <motion.div className="hello"
+        <motion.div className="hello " 
           initial={{ y: -70 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 1 }}>
-          <h1 className='text-secondary font-normal text-[2rem]   lg:text-4xl '>Say <span className='opacity-[0.6]'>Hello</span>!</h1>
-          <p className='text-secondary mb-[42px] text-[0.8rem] w-[250px] md:w-[600px] md:text-lg opacity-50 text-center'>Get in touch and discover how I can contribute to the growth of your business and team.</p>
+          <h1 className='text-secondary font-normal text-[2rem]   lg:text-4xl '>Say <span className='opacity-[0.8]'>Hello</span>!</h1>
+          <p className='text-white mb-[42px] text-[0.8rem] w-[250px] md:w-[600px] md:text-lg text-center'>Get in touch and discover how I can contribute to the growth of your business and team.</p>
         </motion.div>
-        <motion.div className='next flex flex-col items-center pb-[80px]  lg:pb-[0px] '
+        <motion.div className='next flex flex-col items-center pb-[80px]  lg:pb-[0px] 2xl:lg:pb-[6rem] '
           initial={{ y: 70 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 1 }}
@@ -37,15 +37,15 @@ export default function Footer() {
 
         </motion.div>
         <div className="soc ">  <SocialsMob /></div>
-        <div className="copywright opacity-50 border-t w-[100%] border-secondary border-opacity-30 pt-7 lg:mt-[50px]">
-          <p className='text-secondary text-[0.7rem] lg:text-sm'>Designed & Developed by Taiye Ajimati</p>
+        <div className="copywright border-t w-[100%] border-secondary border-opacity-30 pt-7 lg:mt-[50px]">
+          <p className='text-[white] text-[0.7rem] lg:text-sm'>Designed & Developed by Taiye Ajimati</p>
           <small className='text-secondary text-[0.7rem] md:text-[0.9rem]'>taiyeajimati@gmail.com</small>
         </div>
       </div>
-      <div className="social">
+      {/* <div className="social">
 
 
-      </div>
+      </div> */}
 
     </section >
   )
