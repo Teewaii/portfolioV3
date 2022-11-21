@@ -21,7 +21,7 @@ const tools = [
 
 export default function About() {
   return (
-    <section id='about' className='about min-h-[100vh]  flex items-center justify-center pt-[110px] pb-4 lg:pb-0 lg:pt-0
+    <section id='about' className='about min-h-[100vh]  flex items-center justify-center pt-[110px] pb-4 3xl:pb-0 3xl:pt-0
      md:py-[50px] lg:py-[120px] 2xl:py-[80px]  lg:min-h-[95vh]   3xl:py-[10px]
     '>
       <div className="aboutWrapper max-w-[85%] lg:max-w-[82%] 2xl:max-w-[100%] 3xl:max-w-[82%] md:pl-[20px] 2xl:pl-[50px]    flex flex-col lg:flex-row items-center justify-center  ">

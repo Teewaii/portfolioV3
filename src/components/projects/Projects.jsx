@@ -16,10 +16,10 @@ export default function Projects({ project, activeProject }) {
 
 
   return (
-    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
+    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh]  xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
      flex justify-center items-center  md:py-[7rem] xl:py-[0rem] pb-10 
     " >
-      <div className="bucket flex flex-col items-center py-20 lg:py-0  container  overflow-hidden ">
+      <div className="bucket flex flex-col items-center py-20 lg:py-0  container  overflow-hidden  ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
@@ -27,7 +27,7 @@ export default function Projects({ project, activeProject }) {
 
 
         {/*Mobile Projects list controller start */}
-        <motion.div className="scroll_wrapper lg:hidden"
+        <motion.div className="scroll_wrapper lg:hidden "
           initial={{ x: -20 }}
           whileInView={{ x: 0 }}
           transition={{ duration: 1 }}>
@@ -47,24 +47,26 @@ export default function Projects({ project, activeProject }) {
         ">
 
             {/* Projects list controller start */}
-            <motion.div className="scroll_wrapper    hidden lg:flex 
-            lg:items-centser
+            <motion.div className="scroll_wrapper hidden lg:flex 
+            lg:items-centser 
             "  initial={{ x: -20 }}
               whileInView={{ x: 0 }}
               // viewport={{once: true}}
               transition={{ duration: 1 }}
             // transition={{ type: "spring", stiffness: 80 }}
             >
-              <ProjectScroll
-                project={project}
-                activeProject={activeProject}
-              />
+              <div className="scroller h-[80%]  relative">
+                <ProjectScroll
+                  project={project}
+                  activeProject={activeProject}
+                />
+              </div>
             </motion.div>
 
             {/* 
            Projects description end  */}
             {projects.map((item, index) =>
-              <motion.div key={item.id} className={project === index ? "project-card relative h-[fit] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-white bg-opacity-[0.08] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}
+              <motion.div key={item.id} className={project === index ? "project-card relative h-[fit] lg:h-[75%] flex flex-col-reverse flex-[1.5] gap-[20px] lg:gap-[40px] w-[fit] justify-end bg-white bg-opacity-[0.08] border-[3px] rounded-xl border-secondary border-opacity-[0.05] p-[30px]  xl:flex-row" : "project-card hidden"}
                 initial={{ x: 20 }}
                 whileInView={{ x: 0 }}
                 // viewport={{once: true}}

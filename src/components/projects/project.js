@@ -3,7 +3,7 @@ import easy from '../../img/easy.jpg';
 import crowd from '../../img/crowdfunding.jpg';
 import sunnyside from '../../img/sunnyside.jpg';
 import time_tracking from '../../img/time-tracking.jpg';
-import freelance  from '../../img/freelance.jpg';
+import freelance from '../../img/freelance.jpg';
 
 
 const Images = [
@@ -16,7 +16,7 @@ const Images = [
         git: 'https://github.com/Teewaii/hirefreelance.git',
         live: 'https://hirefreelance.vercel.app/',
         tools: [
-            "React.js","Next js", "TailwindCSS"
+            "React.js", "Next js", "TailwindCSS"
         ]
     },
     {
@@ -72,13 +72,13 @@ const Images = [
     {
         id: 6,
         title: "Sunnyside agency ",
-        head: "Personal portfolio",
+        head: "Sunnyside agency",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
         pix: sunnyside,
         git: 'https://github.com/Teewaii/Sunnyside-agency-landing-page-repo.git',
         live: 'https://teewaii.github.io/Sunnyside-agency-landing-page-repo/',
         tools: [
-            "Html","CSS", "Javascript"
+            "Html", "CSS", "Javascript"
         ]
     },
 
