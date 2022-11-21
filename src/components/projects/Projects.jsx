@@ -19,7 +19,7 @@ export default function Projects({ project, activeProject }) {
     <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh] xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
      flex justify-center items-center  md:py-[7rem] xl:py-[0rem] pb-10 
     " >
-      <div className="bucket flex flex-col items-center py-24 lg:py-0  container  overflow-hidden ">
+      <div className="bucket flex flex-col items-center py-20 lg:py-0  container  overflow-hidden ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>

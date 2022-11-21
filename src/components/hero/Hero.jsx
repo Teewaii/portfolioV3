@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Hello() {
   return (
 
-  <section id='hero' className="hero bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-24 lg:pt-0 overflow-hidden relative after:hidden before:hidden   md:after:block md:before:block  ">
+  <section id='hero' className="hero bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] lg:pt-0 overflow-hidden relative after:hidden before:hidden   md:after:block md:before:block  ">
 <div className="hero-container flex  h-[80vh] sm:h-[75vh] lg:h-[80vh]  max-w-[85%]   md:pl-[20px] 2xl:pl-[150px] 3xl:pl-[110px]  sm:py-20  lg:py-0 ">
 <div className="desc flex flex-col items-start justify-center lg:py-14 lg:px-[120px] 2xl:lg:px-[0px] sm:py-20">
 <motion.div className="intro text-left" initial={{ x: -10,opacity:0.3 }}

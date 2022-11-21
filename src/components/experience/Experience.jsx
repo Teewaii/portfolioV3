@@ -16,10 +16,10 @@ export default function Experience() {
   }
 
   return (
-    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] bg-primary relative after:absolute after:top-[-10%] after:right-[-10%] after:bg-secondary after:w-[35%] after:h-[55%] after:rounded-full after:blur-3xl after:opacity-[0.08]     before:absolute before:bottom-[20%] before:left-[15%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.05] overflow-hidden ">
-      <div className="bucket  flex flex-col items-center py-[7rem]  md:py-[0] container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
+    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[65vh] bg-primary relative after:absolute after:top-[-10%] after:right-[-10%] after:bg-secondary after:w-[35%] after:h-[55%] after:rounded-full after:blur-3xl after:opacity-[0.08]   before:absolute before:bottom-[20%] before:left-[15%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.05] overflow-hidden ">
+      <div className="bucket py-[6rem]  md:py-[0] flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
      ">
-        <h1 className='text-white lg:mb-[2rem] mb-[1.5rem] text-[1.5rem] lg:text-[2rem]  '>Places I have worked</h1>
+        <h1 className='text-white lg:mb-[2rem] mb-0 text-[1.5rem] lg:text-[2rem]'>Places I have worked</h1>
         <motion.div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[2rem] mt-[20px]
       "  initial={{ x: 20 }}
@@ -33,7 +33,7 @@ export default function Experience() {
               work.map((work, index) => {
                 return (
 
-                  <div className={exp === index ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary  ease-in-out duration-300 bg-opacity-[.13] rounded-t-md after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4" : "tab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "}
+                  <div className={exp === index ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary  ease-in-out duration-300 bg-opacity-[.13] rounded-t-md after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4 " : "  ProjectTab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "}
                     onClick={() => activeTab(index)} key={index}
                   >{work.company}</div>
 
@@ -50,7 +50,7 @@ export default function Experience() {
 
                 return (
 
-                  <div className={exp === index ? "content text-left lg:ml-[30px] pt-[30px]" : "tab hidden"}
+                  <div className={exp === index ? "content text-left lg:ml-[30px] pt-[30px]" : "projectTab hidden"}
                     onClick={() => activeTab(index)} key={index} >
                     <div className="top flex flex-col lg:flex-row mb-[20px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
                       <h1 className='text-[white] text-xl '>{work.title}</h1>
@@ -107,30 +107,3 @@ export default function Experience() {
 
 
 
-// <div className='tabs-head  flex gap-[70px] justify-center text-[1.4rem] text-secondary
-// border-b
-// '>
-//   <div className={exp === 1 ?"after:rounded-[5px] p-[30px] relative  after:absolute after:bg-green after:left-0 after:right-0 after:bottom-[-3px] after:top-[98%]":"tab  p-[30px] cursor-pointer text-[1.2rem]"}
-//     onClick={() => activeTab(1)}
-//   >Rimal International</div>
-
-//   <div className={exp === 2 ?"after:rounded-[5px] p-[30px] relative  after:absolute after:bg-green after:left-0 after:right-0 after:bottom-[-3px] after:top-[98%]":"tab  p-[30px] cursor-pointer text-[1.2rem]"}
-//     onClick={() => activeTab(2)}
-//   >Sprout Digital</div>
-
-//   <div className="tab  p-[30px] cursor-pointer text-[1.2rem]">240 media</div>
-// </div>
-// <div className="tab-contents">
-//   <div className={exp === 2 ? "content text-left ml-[30px] pt-[30px]" : "tab hidden"}
-//     onClick={() => activeTab(2)}>
-//     <h1 className='text-[white]'>2021 - 202</h1>
-//     <p className='text-secondary'>Content 1</p>
-//   </div>
-
-//   <div className={exp === 1 ? "content text-left ml-[30px] pt-[30px]" : "tab hidden"}
-//     onClick={() => activeTab(1)}>
-//     <h1 className='text-[white]'>2019 - 2021</h1>
-//     <p className='text-secondary'>Content 1</p>
-//   </div>
-
-// </div> 
