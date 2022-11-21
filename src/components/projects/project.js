@@ -1,13 +1,26 @@
 import sass from '../../img/sass.jpg';
 import easy from '../../img/easy.jpg';
 import crowd from '../../img/crowdfunding.jpg';
-import port from '../../img/portfolio.jpg';
+import sunnyside from '../../img/sunnyside.jpg';
 import time_tracking from '../../img/time-tracking.jpg';
+import freelance  from '../../img/freelance.jpg';
 
 
 const Images = [
     {
         id: 1,
+        title: "Hire Freelancer ",
+        head: "Hire Freelancer Landing Page ",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
+        pix: freelance,
+        git: 'https://github.com/Teewaii/hirefreelance.git',
+        live: 'https://hirefreelance.vercel.app/',
+        tools: [
+            "React.js","Next js", "TailwindCSS"
+        ]
+    },
+    {
+        id: 2,
         title: "Sass Landing Page ",
         head: "Digital Marketing Landing Page ",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
@@ -20,7 +33,7 @@ const Images = [
     },
 
     {
-        id: 2,
+        id: 3,
         title: "Easybank LP ",
         head: "Easybank Landing Page",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
@@ -32,7 +45,7 @@ const Images = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Crowdfunding ",
         head: "Crowdfunding Landing Page",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
@@ -45,7 +58,7 @@ const Images = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Time tracking ",
         head: "Time tracking",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
@@ -57,15 +70,15 @@ const Images = [
         ]
     },
     {
-        id: 5,
-        title: "Personal portfolio v2 ",
+        id: 6,
+        title: "Sunnyside agency ",
         head: "Personal portfolio",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec urna ut risus suscipit dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tincidunt diam eget pellentesque malesuada. ",
-        pix: port,
-        git: 'https://github.com/Teewaii/portfolio2.git',
-        live: 'https://teewaii.github.io/portfolio2/',
+        pix: sunnyside,
+        git: 'https://github.com/Teewaii/Sunnyside-agency-landing-page-repo.git',
+        live: 'https://teewaii.github.io/Sunnyside-agency-landing-page-repo/',
         tools: [
-            "React.js", "TailwindCSS"
+            "Html","CSS", "Javascript"
         ]
     },
 
