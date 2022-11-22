@@ -19,15 +19,28 @@ export default function Projects({ project, activeProject }) {
     <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh]  xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
      flex justify-center items-center  md:py-[7rem] xl:py-[0rem] pb-10 
     " >
-      <div className="bucket flex flex-col items-center py-20 lg:py-0  container  overflow-hidden  ">
+      
+      <div className="bucket flex flex-col items-center py-20 lg:py-0  container w-screen  overflow-hidden  ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
         <p className='text-white text-[1.1rem] opacity-80  mb-[2rem]'>Few of my personal projects</p>
-
+       
+          <div className="TEST flex gap-x-4 w-[fit]  overflow-auto h-fit bg-slate-400 py-2">
+            <div className="box w-[100px] h-[100px] bg-red-600">
+            </div>
+            <div className="box w-[100px] h-[100px] bg-red-600">
+            </div>
+            <div className="box w-[100px] h-[100px] bg-red-600">
+            </div>
+            <div className="box w-[100px] h-[100px] bg-red-600">
+            </div>
+            <div className="box w-[100px] h-[100px] bg-red-600">
+            </div>
+          </div>
 
         {/*Mobile Projects list controller start */}
-        <motion.div className="scroll_wrapper lg:hidden "
+        {/* <motion.div className="scroll_wrapper lg:hidden ]"
           initial={{ x: -20 }}
           whileInView={{ x: 0 }}
           transition={{ duration: 1 }}>
@@ -35,7 +48,7 @@ export default function Projects({ project, activeProject }) {
             project={project}
             activeProject={activeProject}
           />
-        </motion.div>
+        </motion.div> */}
 
         <div className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
          container mt-[20px]   md:pl-[20px] lg:pl-[70px]  3xl:pl-[100px] lg:max-w-[80%]  
@@ -55,7 +68,7 @@ export default function Projects({ project, activeProject }) {
               transition={{ duration: 1 }}
             // transition={{ type: "spring", stiffness: 80 }}
             >
-              <div className="scroller h-[80%]  relative">
+              <div className="scroller lg:h-[85%]  relative">
                 <ProjectScroll
                   project={project}
                   activeProject={activeProject}
@@ -84,7 +97,7 @@ export default function Projects({ project, activeProject }) {
                     <p className='text-white opacity-80 text-sm'>{item.desc}</p>
 
 
-                    <ul className='flex gap-[20px] border-b pb-[20px] border-secondary border-opacity-20'>
+                    <ul className='flex gapx-y-[20px] border-b pb-[20px] border-secondary border-opacity-20'>
                       {item.tools.map((tool, index) => {
                         return (
                           <div className="flex items-center gap-[10px] mt-[50px]">
@@ -113,7 +126,7 @@ export default function Projects({ project, activeProject }) {
                 </div>
 
                 <div className="img  flex flex-[1.1] rounded-xl overflow-hidden">
-                  <img className='h-[100%] w-[100%] object-fit' src={item.pix} alt="" />
+                  <img className='h-fit w-[100%] object-fit' src={item.pix} alt="" />
                 </div>
 
               </motion.div>

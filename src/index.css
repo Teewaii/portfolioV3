@@ -155,8 +155,8 @@ a {
 
 .project-list-scroller::-webkit-scrollbar,
 .project-list-scroller::-webkit-scrollbar {
-  width: 5px;
-  height: 20px;
+  width: 8px;
+  height: 0px;
 }
 
 .tabs-head::-webkit-scrollbar-track,
