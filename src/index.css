@@ -149,9 +149,11 @@ a {
 
 .tabs-head::-webkit-scrollbar,
 .project-list::-webkit-scrollbar {
-  width: 30px;
+  width: 0px;
   height: 8px;
 }
+
+
 
 .project-list-scroller::-webkit-scrollbar,
 .project-list-scroller::-webkit-scrollbar {

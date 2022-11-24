@@ -20,24 +20,49 @@ export default function Projects({ project, activeProject }) {
      flex justify-center items-center  md:py-[7rem] xl:py-[0rem] pb-10 
     " >
       
-      <div className="bucket flex flex-col items-center py-20 lg:py-0  container w-screen  overflow-hidden  ">
+      <div className="bucket flex flex-col items-center py-20 lg:py-0   w-screen   ">
         <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
       
       '>Projects</h1>
         <p className='text-white text-[1.1rem] opacity-80  mb-[2rem]'>Few of my personal projects</p>
        
-          <div className="TEST flex gap-x-4 w-[fit]  overflow-auto h-fit bg-slate-400 py-2">
-            <div className="box w-[100px] h-[100px] bg-red-600">
+         {/*Mobile Projects list controller start */}
+      <motion.div  initial={{ x: -20 }}
+          whileInView={{ x: 0 }}
+          transition={{ duration: 1 }}  className="project-list flex whitespace-nowrap gap-4  w-[100%]  overflow-scroll min-h-[fit] bg-primary py-2 pl-4 pr-4 lg:hidden">
+          
+            {projects.map((item, index) =>
+              <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary lg:rounded-bl-md rounded-tl-md ease-in-out duration-300 bg-opacity-[0.13] text-sm  font-normal py-[15px] px-[15px] lg:px-[20px] after:absolute after:bg-secondary  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 lg:after:top-0  lg:after:bottom-[0] lg:after:left-[97%] lg:after:right-[1px]  after:rounded-xl cursor-pointer after:delay-100 lg:last:mb-11 ' : 'text-[white] relative text-sm md:text-sm font-normal py-[15px] px-[10px] lg:px-[20px] min-w-fit cursor-pointer hover:after:top-0  hover:after:bottom-[0] hover:after:left-[98%] hover:after:right-[1px] hover:bg-secondary hover:bg-opacity-[0.1] '}
+                onClick={() => activeProject(index)}
+              >
+                {item.title}</h1>
+            )
+            }
+            {/* <div className="box min-w-[180px] h-[100px] bg-purple-500">       
             </div>
-            <div className="box w-[100px] h-[100px] bg-red-600">
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
             </div>
-            <div className="box w-[100px] h-[100px] bg-red-600">
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
             </div>
-            <div className="box w-[100px] h-[100px] bg-red-600">
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
             </div>
-            <div className="box w-[100px] h-[100px] bg-red-600">
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
             </div>
-          </div>
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
+            </div>
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
+            </div>
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
+            </div>
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
+            </div>
+            <div className="box min-w-[180px] h-[100px] bg-red-600">       
+            </div>
+            <div className="box min-w-[180px] h-[100px] bg-green">       
+            </div> */}
+           
+          </motion.div>
+ 
 
         {/*Mobile Projects list controller start */}
         {/* <motion.div className="scroll_wrapper lg:hidden ]"
@@ -56,7 +81,7 @@ export default function Projects({ project, activeProject }) {
 
 
           <div className="main flex flex-col gap-[80px] 
-        md:flex-row lg:gap-[20px] 2xl:gap-[80px] 
+        md:flex-row lg:gap-[20px] 2xl:gap-[80px]  container
         ">
 
             {/* Projects list controller start */}

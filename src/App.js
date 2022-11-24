@@ -15,6 +15,7 @@ import { ChevronUpIcon } from '@heroicons/react/24/solid'
 import Projects from './components/projects/Projects';
 import Footer from './components/footer/Footer';
 import SocialsMob from './components/socials/SocialsMob';
+import Test from './components/test/Test';
 // import Contact from './components/contact/Contact';
 
 
@@ -72,7 +73,7 @@ function App() {
       <Footer />
       {/* <SocialsMob /> */}
       <Socials />
-      
+      {/* <Test/> */}
       <ScrollToTop style={{ color: '#00007A', }} smooth component={<ChevronUpIcon />} />
       {!toggle &&
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0 " onClick={toggleMenu}></div>}
@@ -89,7 +90,6 @@ function App() {
 
         </div>
       </div>
-
 
 
     </main>
