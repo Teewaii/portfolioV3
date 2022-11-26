@@ -79,7 +79,7 @@ function App() {
         <div className="overlay bg-primary opacity-[0.8]  absolute top-0 left-0 right-0 bottom-0 " onClick={toggleMenu}></div>}
 
       {/* Hamburger */}
-      <div className={shadow ? "topNav   fixed bg-primary  top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24  md:px-[55px] NavShadow  shadow-2xl " : "topNav   fixed bg-primary b top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 md:px-[44px]  "}>
+      <div className={shadow ? "topNav z-[40]   fixed bg-primary  top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24  md:px-[55px] NavShadow  shadow-2xl " : "topNav   fixed bg-primary b top-0 py-4 right-0  lg:hidden  w-screen flex items-center justify-between px-6 sm:px-24 md:px-[44px]  "}>
         <div className="logo  opacity-50">
           <img className='w-10' src={logo} alt="logo" />
         </div>
