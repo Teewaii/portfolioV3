@@ -20,7 +20,7 @@ export default function Projects({ project, activeProject }) {
      flex justify-center items-center  md:py-[7rem] xl:py-[5rem] 3xl-xl:py-[1rem] pb-10 
     " >
 
-      <div className="bucket flex flex-col items-center py-20 lg:py-0   w-screen   ">
+      <div className="bucket flex flex-col items-center py-[30px] lg:py-0   w-screen   ">
         <div className="section-title flex flex-col items-start container lg:items-center">
           <h1 className='project-header text-white mb-4  text-[1.5rem] lg:text-[2rem]  w-fit relative  before:absolute before:left-0 before:right-0 before:bg-green before:h-1 before:bottom-0 before:z-[-1] z-40 '>Projects</h1>
           <p className='text-white text-[1rem]  text-left lg:text-center opacity-80 max-w-[700px]  mb-[2rem]'>I have spent quite some time building projects in other to continously improve my front-end development skills by building projects from scratch. This section contain few of my personal development project that shows my skills and experience. I have also worked on several smaller projects that can be found on my <a className='border-b-2 border-green ' href="https://github.com/Teewaii" target='blank'>github page</a> </p>
