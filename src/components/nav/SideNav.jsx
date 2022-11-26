@@ -14,7 +14,7 @@ import homeIcon from '../../img/home.svg';
 import AboutIcon from '../../img/About.svg';
 import experienceIcon from '../../img/experience.svg';
 import projectIcon from '../../img/project.svg';
-import contactIcon from '../../img/close.svg';
+import contactIcon from '../../img/contact.svg';
 import resumeIcon from '../../img/resume.svg';
 
 
