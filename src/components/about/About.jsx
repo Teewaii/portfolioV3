@@ -78,7 +78,7 @@ export default function About() {
                 </span>
               </div>
               <div className="resume">
-                <a href='/resume.pdf' download='Taiye Ajimati Resume' className='border-primary border-2 px-10 py-4 text-primary rounded-lg hover:bg-primary hover:text-white'>Resume</a>
+                <a href='/resume.pdf' download='Taiye Ajimati Resume' className='border-primary border-2 px-5 py-4 text-primary rounded-lg hover:bg-primary transition-color duration-300 ease-in-out hover:text-white'>Download Resume</a>
               </div>
             </motion.div>
 
