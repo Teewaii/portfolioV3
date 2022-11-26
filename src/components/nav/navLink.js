@@ -44,12 +44,12 @@ const links = [
     },
 
 
-    {
-        id: 6,
-        title: "Resume ",
-        icon: resumeIcon,
-        anchor: '#resume',
-    },
+    // {
+    //     id: 6,
+    //     title: "Resume ",
+    //     icon: resumeIcon,
+    //     anchor: '#resume',
+    // },
 
 
 

@@ -12,8 +12,7 @@ export default function Contact() {
         <div className="desc  text-left pt-[50px] 
         
        ">
-          <h1 className='text-[38px] mb-[10px] 
-           dark:text-lightprim     md:text-5xl md:mb-[24px]' >
+          <h1 className='text-[38px] mb-[10px] md:text-5xl md:mb-[24px]' >
             Say <span className='text-secondary font-bold'>hello!</span>
           </h1>
           <p className='border-b-[1px] border-lightprim pb-[28px]  text-primary text-md
