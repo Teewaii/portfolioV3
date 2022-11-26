@@ -40,7 +40,7 @@ const links = [
         id: 5,
         title: "Contact ",
         icon: contactIcon,
-        anchor: '#footer',
+        anchor: '#contact',
     },
 
 

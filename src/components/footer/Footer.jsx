@@ -9,7 +9,7 @@ import SocialsMob from '../socials/SocialsMob';
 
 export default function Footer() {
   return (
-    <section id='footer' className=' bg-primary relative py-[2rem] min-h-[50vh]
+    <section id='contact' className=' bg-primary relative py-[2rem] min-h-[50vh]
     2xl:min-h-[40vh]  lg:pt-[9rem] 
     '>
       <div className="footer-wrapper flex flex-col items-center 
