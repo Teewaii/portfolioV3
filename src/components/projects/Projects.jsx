@@ -17,28 +17,27 @@ export default function Projects({ project, activeProject }) {
 
   return (
     <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh]  xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
-     flex justify-center items-center  md:py-[7rem] xl:py-[0rem] pb-10 
+     flex justify-center items-center  md:py-[7rem] xl:py-[5rem] 3xl-xl:py-[1rem] pb-10 
     " >
-      
+
       <div className="bucket flex flex-col items-center py-20 lg:py-0   w-screen   ">
-        <h1 className='project-header text-secondary  text-[1.5rem] lg:text-[2rem] flex relative  
-      
-      '>Projects</h1>
-        <p className='text-white text-[1.1rem] opacity-80  mb-[2rem]'>Few of my personal projects</p>
-       
-         {/*Mobile Projects list controller start */}
-      <motion.div  initial={{ x: -20 }}
+        <div className="section-title flex flex-col items-start container lg:items-center">
+          <h1 className='project-header text-white mb-4  text-[1.5rem] lg:text-[2rem]  w-fit relative  before:absolute before:left-0 before:right-0 before:bg-green before:h-1 before:bottom-0 before:z-[-1] z-40 '>Projects</h1>
+          <p className='text-white text-[1rem]  text-left lg:text-center opacity-80 max-w-[700px]  mb-[2rem]'>I have spent quite some time building projects in other to continously improve my front-end development skills by building projects from scratch. This section contain few of my personal development project that shows my skills and experience. I have also worked on several smaller projects that can be found on my <a className='border-b-2 border-green ' href="https://github.com/Teewaii" target='blank'>github page</a> </p>
+        </div>
+        {/*Mobile Projects list controller start */}
+        <motion.div initial={{ x: -20 }}
           whileInView={{ x: 0 }}
-          transition={{ duration: 1 }}  className="project-list flex whitespace-nowrap gap-4  w-[100%]  overflow-scroll min-h-[fit] bg-primary py-2 pl-4 pr-4 lg:hidden">
-          
-            {projects.map((item, index) =>
-              <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary lg:rounded-bl-md rounded-tl-md ease-in-out duration-300 bg-opacity-[0.13] text-sm  font-normal py-[15px] px-[15px] lg:px-[20px] after:absolute after:bg-secondary  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 lg:after:top-0  lg:after:bottom-[0] lg:after:left-[97%] lg:after:right-[1px]  after:rounded-xl cursor-pointer after:delay-100 lg:last:mb-11 ' : 'text-[white] relative text-sm md:text-sm font-normal py-[15px] px-[10px] lg:px-[20px] min-w-fit cursor-pointer hover:after:top-0  hover:after:bottom-[0] hover:after:left-[98%] hover:after:right-[1px] hover:bg-secondary hover:bg-opacity-[0.1] '}
-                onClick={() => activeProject(index)}
-              >
-                {item.title}</h1>
-            )
-            }
-            {/* <div className="box min-w-[180px] h-[100px] bg-purple-500">       
+          transition={{ duration: 1 }} className="project-list flex whitespace-nowrap gap-4  w-[100%]  overflow-scroll min-h-[fit] bg-primary py-2 pl-4 pr-4 lg:hidden">
+
+          {projects.map((item, index) =>
+            <h1 key={item.id} className={project === index ? 'text-[white] relative min-w-fit bg-secondary lg:rounded-bl-md rounded-tl-md ease-in-out duration-300 bg-opacity-[0.13] text-sm  font-normal py-[15px] px-[15px] lg:px-[20px] after:absolute after:bg-secondary  after:top-[-1%]  after:bottom-[94%] after:left-0 after:right-0 lg:after:top-0  lg:after:bottom-[0] lg:after:left-[97%] lg:after:right-[1px]  after:rounded-xl cursor-pointer after:delay-100 lg:last:mb-11 ' : 'text-[white] relative text-sm md:text-sm font-normal py-[15px] px-[10px] lg:px-[20px] min-w-fit cursor-pointer hover:after:top-0  hover:after:bottom-[0] hover:after:left-[98%] hover:after:right-[1px] hover:bg-secondary hover:bg-opacity-[0.1] '}
+              onClick={() => activeProject(index)}
+            >
+              {item.title}</h1>
+          )
+          }
+          {/* <div className="box min-w-[180px] h-[100px] bg-purple-500">       
             </div>
             <div className="box min-w-[180px] h-[100px] bg-red-600">       
             </div>
@@ -60,9 +59,9 @@ export default function Projects({ project, activeProject }) {
             </div>
             <div className="box min-w-[180px] h-[100px] bg-green">       
             </div> */}
-           
-          </motion.div>
- 
+
+        </motion.div>
+
 
         {/*Mobile Projects list controller start */}
         {/* <motion.div className="scroll_wrapper lg:hidden ]"

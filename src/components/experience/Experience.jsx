@@ -17,9 +17,12 @@ export default function Experience() {
 
   return (
     <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative after:absolute after:top-[-10%] after:right-[-10%] after:bg-secondary after:w-[35%] after:h-[55%] after:rounded-full after:blur-3xl after:opacity-[0.08]   before:absolute before:bottom-[20%] before:left-[15%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.05] overflow-hidden ">
-      <div className="bucket pt-[6rem] pb-[2rem] md:pb-[0] md:pt-[0] flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
+      <div className="bucket pt-[4rem]  pb-[2rem] md:pb-[0] md:pt-[0] flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
      ">
-        <h1 className='text-white lg:mb-[2rem] mb-0 text-[1.5rem] lg:text-[2rem]'>Places I have worked</h1>
+        <div className="section-title gap-y-4 lg:gap-y-0 flex flex-col items-start container lg:items-center">
+          <h1 className='text-white lg:mb-[1rem]  mb-0 text-[1.5rem] lg:text-[2rem] relative before:absolute before:left-0 before:right-0 before:bg-green before:h-1 before:bottom-0 before:z-[-1] z-40 '>Places I have worked</h1>
+          <p className='text-white text-[1rem]  text-left lg:text-center  opacity-80 max-w-[700px]  mb-[2rem]'>Over the years I have worked in different sectors ranging from the IT industry, advertising and publishing and I have delivered great products and services while working as a web developer and graphic designer during this periods.  </p>
+        </div>
         <motion.div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[2rem] mt-[20px]
       "  initial={{ x: 20 }}
