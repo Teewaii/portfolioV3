@@ -15,12 +15,12 @@ export default function Footer() {
       <div className="footer-wrapper flex flex-col items-center 
       lg:pl-[120px] 2xl:lg:pl-[0px]  
       ">
-        <motion.div className="hello " 
+        <motion.div className="hello "
           initial={{ y: -70 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 1 }}>
-          <h1 className='text-secondary font-normal text-[2rem]   lg:text-4xl '>Say <span className='opacity-[0.8]'>Hello</span>!</h1>
-          <p className='text-white mb-[42px] text-[0.8rem] w-[250px] md:w-[600px] md:text-lg text-center'>Get in touch and discover how I can contribute to the growth of your business and team.</p>
+          <h1 className='text-secondary font-normal text-[2rem]   lg:text-5xl mb-2 '>Say <span className='opacity-[0.8]'>Hello</span>!</h1>
+          <p className='text-white mb-[42px] text-[0.8rem] w-[250px] md:w-[400px] 2xl:w-[600px] md:text-lg text-center'>Get in touch and discover how I can contribute to the growth of your business and team.</p>
         </motion.div>
         <motion.div className='next flex flex-col items-center pb-[80px]  lg:pb-[0px] 2xl:lg:pb-[6rem] '
           initial={{ y: 70 }}

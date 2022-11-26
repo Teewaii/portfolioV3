@@ -69,18 +69,18 @@ const Images = [
             "CSS", "Javascript"
         ]
     },
-    {
-        id: 6,
-        title: "Sunnyside agency ",
-        head: "Sunnyside agency",
-        desc: "A simple website layout built for fun.",
-        pix: sunnyside,
-        git: 'https://github.com/Teewaii/Sunnyside-agency-landing-page-repo.git',
-        live: 'https://teewaii.github.io/Sunnyside-agency-landing-page-repo/',
-        tools: [
-            "Html", "CSS", "Javascript"
-        ]
-    },
+    // {
+    //     id: 6,
+    //     title: "Sunnyside agency ",
+    //     head: "Sunnyside agency",
+    //     desc: "A simple website layout built for fun.",
+    //     pix: sunnyside,
+    //     git: 'https://github.com/Teewaii/Sunnyside-agency-landing-page-repo.git',
+    //     live: 'https://teewaii.github.io/Sunnyside-agency-landing-page-repo/',
+    //     tools: [
+    //         "Html", "CSS", "Javascript"
+    //     ]
+    // },
 
 ]
 

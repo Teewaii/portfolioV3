@@ -25,7 +25,7 @@ module.exports = {
 
       center: true,
     },
-   
+
 
     backgroundImage: {
       'spiral-lg': "url('../src/img/spiral-lg.svg')",
@@ -44,10 +44,13 @@ module.exports = {
 
 
         'primary': '#0c25b3',
+        // 'primary': '#070C20',
         // 'primary': '#012B48',
         'secondary': '#75D0EE',
         // 'green': '#E4AB00',
         'green': '#D6E869',
+        // 'green': '#3EE8E5',
+        // 'navbg': '#OA3',
         'navbg': '#050e80',
         // 'navbg': '#031E30',
         // 'primary': '#00007A',
