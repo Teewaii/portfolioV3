@@ -16,9 +16,7 @@ export default function Nav({ toggle, toggleMenu,setToggle }) {
       setShadow(false)
     }
   }
-  window.addEventListener('scroll', NavShadow)
-
- 
+  window.addEventListener('scroll', NavShadow) 
 
   return (
 
