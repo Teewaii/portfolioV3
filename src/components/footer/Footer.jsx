@@ -12,7 +12,7 @@ export default function Footer() {
     <section id='contact' className=' bg-primary relative py-[2rem] min-h-[50vh]
     2xl:min-h-[40vh]  lg:pt-[9rem] 
     '>
-      <div className="footer-wrapper flex flex-col items-center 
+      <div className="main footer-wrapper flex flex-col items-center 
       lg:pl-[120px] 2xl:lg:pl-[0px]  
       ">
         <motion.div className="hello "
@@ -36,7 +36,8 @@ export default function Footer() {
           <Email />
 
         </motion.div>
-        <div className="soc ">  <SocialsMob /></div>
+       
+        <div className="soc ">  <SocialsMob /> {/* social icons for mobile devices */}</div> 
         <div className="copywright border-t w-[100%] border-secondary border-opacity-30 pt-7 lg:mt-[50px]">
           <p className='text-[white] text-[0.7rem] lg:text-sm'>Designed & Developed by Taiye Ajimati</p>
           <small className='text-secondary text-[0.7rem] md:text-[0.9rem]'>taiyeajimati@gmail.com</small>

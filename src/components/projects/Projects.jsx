@@ -16,7 +16,7 @@ export default function Projects({ project, activeProject }) {
 
 
   return (
-    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh]  xl:min-h-[75vh] bg-primary relative  before:absolute before:top-[20%] before:right-[0%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.1]  
+    <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh]  xl:min-h-[75vh] bg-primary relative  
      flex justify-center items-center  md:py-[7rem] xl:py-[5rem] 3xl-xl:py-[1rem] pb-10 
     " >
 
@@ -37,29 +37,7 @@ export default function Projects({ project, activeProject }) {
               {item.title}</h1>
           )
           }
-          {/* <div className="box min-w-[180px] h-[100px] bg-purple-500">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-red-600">       
-            </div>
-            <div className="box min-w-[180px] h-[100px] bg-green">       
-            </div> */}
-
+          
         </motion.div>
 
 

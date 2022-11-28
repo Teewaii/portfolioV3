@@ -16,7 +16,7 @@ export default function Experience() {
   }
 
   return (
-    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative after:absolute after:top-[-10%] after:right-[-10%] after:bg-secondary after:w-[35%] after:h-[55%] after:rounded-full after:blur-3xl after:opacity-[0.08]   before:absolute before:bottom-[20%] before:left-[15%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.05] overflow-hidden ">
+    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative  overflow-hidden ">
     
     {/* Main content container */}
       <div className="main pt-[4rem]  pb-[2rem] md:pb-[0] md:pt-[0] lg:pt-[60px]  flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
@@ -47,7 +47,7 @@ export default function Experience() {
                 )
               })
             }
-            end of mapp
+            {/* end of mapp */}
           </div>
 
 
