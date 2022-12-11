@@ -1,7 +1,7 @@
 import sass from '../../img/sass.jpg';
 import easy from '../../img/easy.jpg';
 import crowd from '../../img/crowdfunding.jpg';
-import sunnyside from '../../img/sunnyside.jpg';
+import restCountry from '../../img/restCountry.jpg';
 import time_tracking from '../../img/time-tracking.jpg';
 import freelance from '../../img/freelance.jpg';
 
@@ -9,6 +9,19 @@ import freelance from '../../img/freelance.jpg';
 const Images = [
     {
         id: 1,
+        title: "Rest Country APi ",
+        head: "Rest Country APi",
+        desc: "This is a practice project from frontend mentor. The aim of this challenge is to integrate the REST Countries API to pull country data and display it. Users should be able to filter the countries with different parameters.",
+        pix: restCountry,
+        git: 'https://github.com/Teewaii/restCountries.git',
+        live: 'https://rest-countries-weld.vercel.app/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+
+        id: 2,
         title: "Hire Freelancer ",
         head: "Hire Freelancer Landing Page ",
         desc: "This is a demo website for hiring freelance. The project was built for the purpose of having a feel of Next js.",
@@ -20,7 +33,7 @@ const Images = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: "Sass Landing Page ",
         head: "Digital Marketing Landing Page ",
         desc: "A personal project intended for a digital marketing company that showcases the company's products and services. ",
@@ -33,7 +46,7 @@ const Images = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "Easybank LP ",
         head: "Easybank Landing Page",
         desc: "This a bank demo front-end development challenge from Frontendmentor for personal development. ",
@@ -45,7 +58,7 @@ const Images = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: "Crowdfunding ",
         head: "Crowdfunding Landing Page",
         desc: "This a crowd funding demo front-end development challenge from Frontendmentor for personal development. Users will be able make a selection of which pledge to make.",
@@ -58,7 +71,7 @@ const Images = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Time tracking ",
         head: "Time tracking",
         desc: "This a Time tracking demo front-end development challenge from Frontendmentor for personal development. Users will be able to View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page, Switch between viewing Daily, Weekly, and Monthly stats. ",
@@ -69,18 +82,7 @@ const Images = [
             "CSS", "Javascript"
         ]
     },
-    // {
-    //     id: 6,
-    //     title: "Sunnyside agency ",
-    //     head: "Sunnyside agency",
-    //     desc: "A simple website layout built for fun.",
-    //     pix: sunnyside,
-    //     git: 'https://github.com/Teewaii/Sunnyside-agency-landing-page-repo.git',
-    //     live: 'https://teewaii.github.io/Sunnyside-agency-landing-page-repo/',
-    //     tools: [
-    //         "Html", "CSS", "Javascript"
-    //     ]
-    // },
+
 
 ]
 
