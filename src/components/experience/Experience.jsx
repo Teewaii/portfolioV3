@@ -16,22 +16,27 @@ export default function Experience() {
   }
 
   return (
-    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative after:absolute after:top-[-10%] after:right-[-10%] after:bg-secondary after:w-[35%] after:h-[55%] after:rounded-full after:blur-3xl after:opacity-[0.08]   before:absolute before:bottom-[20%] before:left-[15%] before:bg-secondary before:w-[25%] before:h-[45%] before:rounded-full before:blur-3xl before:opacity-[0.05] overflow-hidden ">
-      <div className="bucket pt-[4rem]  pb-[2rem] md:pb-[0] md:pt-[0] lg:pt-[60px]  flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
+    <section id='experience' className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative  overflow-hidden ">
+    
+    {/* Main content container */}
+      <div className="main pt-[4rem]  pb-[2rem] md:pb-[0] md:pt-[0] lg:pt-[60px]  flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
      ">
         <div className="section-title gap-y-4 lg:gap-y-0 flex flex-col items-start  lg:items-center">
           <h1 className='text-white lg:mb-[1rem]  mb-0 text-[1.5rem] lg:text-[2rem] relative before:absolute before:left-0 before:right-0 before:bg-green before:h-1 before:bottom-0 before:z-[-1] z-40 '>Places I have worked</h1>
           <p className='text-white text-[1rem]  text-left lg:text-center  opacity-80 max-w-[700px]  mb-[2rem]'>Over the years I have worked in different sectors ranging from the IT industry, advertising and publishing and I have delivered great products and services while working as a web developer and graphic designer during this periods.  </p>
         </div>
+        
         <motion.div className="experience-wrapper border-[3px] rounded-xl px-6  border-opacity-[0.1] border-secondary  flex flex-col
        min-h-[400px] pb-[50px] container lg:py-[2rem] mt-[20px]
       "  initial={{ x: 20 }}
           whileInView={{ x: 0 }}
           transition={{ duration: 1 }}>
 
+            {/* Companys container */}
           <div className='tabs-head  text-[1.4rem] text-white py-[0.6rem] 
         flex   border-opacity-[0.1] border-secondary overflow-auto overflow-y-hidden lg:pt-[0rem] lg:pb-[10px] lg:border-b-2
         '     >
+          {/* Mapping throught the list of comapanys */}
             {
               work.map((work, index) => {
                 return (
@@ -39,11 +44,10 @@ export default function Experience() {
                   <div className={exp === index ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary  ease-in-out duration-300 bg-opacity-[.13] rounded-t-md after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4 " : "  ProjectTab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "}
                     onClick={() => activeTab(index)} key={index}
                   >{work.company}</div>
-
                 )
-
               })
             }
+            {/* end of mapp */}
           </div>
 
 
