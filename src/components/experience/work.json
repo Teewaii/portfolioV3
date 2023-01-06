@@ -1,8 +1,22 @@
 [
   {
     "id": 1,
+    "company": "Freelance",
+    "title": "Frontend Developer",
+    "type": "Per-time",
+    "year": "2022",
+    "desc": [
+      "Consult with clients to establish the goal of their software products",
+      "Establish guidelines for illustrators, fonts, colours and images to be used for a project",
+      "Prepare sketches, layouts and UI elements to ease user experience",
+      "Occassionaly deliver UI design that suit the customer's need.",
+      "Deliver the final products using modern frontend tools such as react.js, tailwindCSS and lot more."
+    ]
+  },
+  {
+    "id": 2,
     "company": "Rimal Int'l & co.",
-    "title": "Creative Designer ",
+    "title": "Graphic/Web Designer ",
     "type": "Full time",
     "year": "2020-2023",
     "desc": [
@@ -15,14 +29,14 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "company": "Sprout Digital ltd.",
     "title": "Web Developer/Creative Designer  ",
     "type": "Full time",
     "year": "2017-2019",
     "desc": [
       "Created website layout and user interface using standard HTML/CSS practices.",
-      "Managed the company'sdomain and website hosting platform",
+      "Managed the company's domain and website hosting platform",
       "Responsible for maintaining, expanding and scaling of clients websites.",
       "Created UI design for specialized websites.",
       "Created graphic designs for web, social media ads & banners, print and marketing collaterals as required.",
@@ -30,7 +44,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "company": "240 Media Nig Ltd",
     "title": "Graphic Designer",
     "type": "Full time",
@@ -46,7 +60,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "company": "Final Touch Media",
     "title": "Graphic Designer ",
     "type": "Per-time/Contract",
@@ -60,7 +74,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "company": "Stainless Digital Colors Ltd.",
     "title": "Graphic Designer ",
     "type": "Full time",
@@ -73,7 +87,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "company": "codeITng.",
     "title": "Instructional Facilitator ",
     "type": "Volunteered",
@@ -84,7 +98,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "company": "YouthhubAfrica.",
     "title": "Creative Designer - ",
     "type": "Volunteered",
