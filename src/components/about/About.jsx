@@ -22,12 +22,12 @@ const tools = [
 export default function About() {
   return (
     <section id='about' className='about min-h-[100vh]  flex items-center justify-center pt-[110px] pb-4 3xl:pb-0 3xl:pt-0
-     md:py-[50px] lg:py-[120px] 2xl:py-[80px]  lg:min-h-[95vh]   3xl:py-[10px]
+     md:py-[50px] lg:py-[120px] 2xl:py-[80px] lg:min-h-[95vh]   3xl:py-[10px] 
     '>
 
       {/* Main content container */}
-      <div className="main aboutWrapper max-w-[85%] lg:max-w-[82%] 2xl:max-w-[100%] 3xl:max-w-[82%] md:pl-[20px] 2xl:pl-[50px]    flex flex-col lg:flex-row items-center justify-center  ">
-        <div className='bucket flex items-center lg:pl-[120px] 2xl:pl-[0px] 3xl:max-w-[80%]   flex-col lg:items-start  gap-[50px] lg:gap-[20px]  2xl:gap-[180px]  
+      <div className="main aboutWrapper max-w-[85%] lg:max-w-[82%] 2xl:max-w-[100%] 3xl:max-w-[100%] md:pl-[20px] 2xl:pl-[50px] 5xl:pl-[0px]   4xl:pl-[280px]    flex flex-col lg:flex-row items-center justify-center  ">
+        <div className='bucket flex items-center lg:pl-[120px] 2xl:pl-[0px] 3xl:max-w-[80%] 5xl:pl-[120px]  flex-col lg:items-start  gap-[50px] lg:gap-[20px]  2xl:gap-[180px]  
       lg:flex-row 
      ' >
           <div className="desc text-left flex-[1] lg:flex-[1.3] xl:flex-[1]   ">
@@ -49,7 +49,7 @@ export default function About() {
 
               <ul className='tool-list text-primary flex flex-wrap gap-[5px] md:gap-[10px] mt-[13px]'>
 
-{/* Mapping through the tools list */}
+                {/* Mapping through the tools list */}
                 {tools.map((tool) => (
                   <li key={tool} className='flex gap-[10px] items-center' ><span><svg width="18" height="12" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path className='animate-pulse ' d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z" fill="#00007A" />
@@ -58,7 +58,7 @@ export default function About() {
                 ))
 
                 }
-{/* End of Mapping */}
+                {/* End of Mapping */}
 
               </ul>
             </div>
@@ -71,7 +71,7 @@ export default function About() {
             transition={{ duration: 1 }}>
             <img className=' scale-[0.8] md:scale-[1] w-[fit] md:w-[70%] xl:w-[50%] lg:mt-10' src={hdshot} alt="head shot" />
 
-                {/* Download resume button */}
+            {/* Download resume button */}
             <motion.div className='next flex flex-col items-center space-y-4 pb-[80px]  lg:pb-[0px] 2xl:lg:pb-[6rem] '
               initial={{ y: 70 }}
               whileInView={{ y: 0 }}
@@ -87,7 +87,7 @@ export default function About() {
                 <a href='/Taiye_Ajimati_resume.pdf' download='Taiye Ajimati Resume' className='border-primary border-2 px-5 py-4 text-primary rounded-lg hover:bg-primary transition-color duration-300 ease-in-out hover:text-white'>Download Resume</a>
               </div>
             </motion.div>
-{/* End of download resume button */}
+            {/* End of download resume button */}
 
           </motion.div>
 

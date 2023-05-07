@@ -5,15 +5,6 @@ import { motion } from "framer-motion";
 
 
 export default function Projects({ project, activeProject }) {
-  // const [project, setProject] = useState(0);
-
-  // function activeProject(index) {
-  //   if (project === index) {
-  //     return setProject(1)
-  //   }
-  //   setProject(index)
-  // }
-
 
   return (
     <section id='projects' className="project min-h-[100vh] lg:min-h-[90vh]  xl:min-h-[75vh] bg-primary relative  
@@ -25,6 +16,7 @@ export default function Projects({ project, activeProject }) {
           <h1 className='project-header text-white mb-4  text-[1.5rem] lg:text-[2rem]  w-fit relative  before:absolute before:left-0 before:right-0 before:bg-green before:h-1 before:bottom-0 before:z-[-1] z-40 '>Projects</h1>
           <p className='text-white text-[1rem]  text-left lg:text-center opacity-80 max-w-[700px]  mb-[2rem]'>I have spent quite some time building projects in other to continously improve my front-end development skills by building projects from scratch. This section contain few of my personal development project that shows my skills and experience. I have also worked on several smaller projects that can be found on my <a className='border-b-2 border-green ' href="https://github.com/Teewaii" target='blank'>github page</a> </p>
         </div>
+        
         {/*Mobile Projects list controller start */}
         <motion.div initial={{ x: -20 }}
           whileInView={{ x: 0 }}
@@ -37,21 +29,8 @@ export default function Projects({ project, activeProject }) {
               {item.title}</h1>
           )
           }
-          
+
         </motion.div>
-
-
-        {/*Mobile Projects list controller start */}
-        {/* <motion.div className="scroll_wrapper lg:hidden ]"
-          initial={{ x: -20 }}
-          whileInView={{ x: 0 }}
-          transition={{ duration: 1 }}>
-          <ProjectScroll
-            project={project}
-            activeProject={activeProject}
-          />
-        </motion.div> */}
-
         <div className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
          container mt-[20px]   md:pl-[20px] lg:pl-[70px]  3xl:pl-[100px] lg:max-w-[80%]  
       ">
@@ -128,7 +107,7 @@ export default function Projects({ project, activeProject }) {
                 </div>
 
                 <div className="img  flex flex-[1.1] rounded-xl overflow-hidden">
-                  <img className='h-fit w-[100%] object-fit' src={item.pix} alt="" />
+                  <a href={item.live} target="_blank"> <img className='h-fit w-[100%] object-fit' src={item.pix} alt="" /></a>
                 </div>
 
               </motion.div>

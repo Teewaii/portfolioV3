@@ -44,17 +44,17 @@ module.exports = {
 
 
         // 'primary': 'black',
-         'primary': '#0c25b3',
+        'primary': '#0c25b3',
         // 'primary': '#070C20',
         // 'primary': '#012B48',
         'secondary': '#75D0EE',
         // 'green': '#E4AB00',
         // 'green': '#1ADBDA',
-         'green': '#D6E869',
+        'green': '#D6E869',
         // 'green': '#3EE8E5',
         // 'navbg': '#OA3',
         // 'navbg': '#2E302E',
-         'navbg': '#050e80',
+        'navbg': '#050e80',
         // 'navbg': '#031E30',
         // 'primary': '#00007A',
         // // 'primary': '#012B48',
@@ -67,6 +67,12 @@ module.exports = {
       },
       screens: {
         '3xl': '1700px',
+        '4xl': '1680px',
+        // => @media (min-width: 1680px) { ... }
+
+        '5xl': '1920px',
+
+
       },
     },
   },

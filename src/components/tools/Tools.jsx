@@ -6,7 +6,7 @@ export default function Tools() {
 
 
     <section className="tools relative bg-[white] w-screen 
-    lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[58%]  lg:after:top-[50%] lg:after:bg-primary lg:after:h-[2px]  after:opacity-50  ">
+    lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[58%] 5xl:after:left-[62%]  lg:after:top-[50%] lg:after:bg-primary lg:after:h-[2px]  after:opacity-50  ">
       <div className='hero bg-spiral-mob flex  bg-no-repeat bg-cover bg-bottom bg-opacity-[0.5] h-[20vh] 
     lg:bg-spiral-lg  lg:min-h-[18vh]  relative after:absolute w-[100%]  
     after:bg-secondary after:top-0 after:bottom-0 after:left-0  
@@ -14,7 +14,7 @@ export default function Tools() {
 
         {/* Main content container */}
         <motion.div className="main flex flex-col lg:flex-row-reverse lg:gap-[40px] xl:gap-[40px] items-center justify-center xl:justify-end container w-[100%] 
-        md:pl-[20px] lg:pl-[250px] xl:pl-[210px]  2xl:pl-[220px]  3xl:pl-[140px]  
+        md:pl-[20px] lg:pl-[250px] xl:pl-[240px]  3xl:pl-[140px] 4xl:pl-[300px]  5xl:pl-[320px]  
         " initial={{ x: -20, opacity: 0.3 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}>

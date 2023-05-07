@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 export default function projectScroll({ project, activeProject }) {
   return (
-    <section  className="project-list-scroller h-[fit] bg-primary  lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:right-0 lg:after:top-[90%] lg:after:bg-primary lg:after:opacity-80
+    <section className="project-list-scroller h-[fit] bg-primary  lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:right-0 lg:after:top-[90%] lg:after:bg-primary lg:after:opacity-80
      ml-[50px] md:ml-[0px]  lg:h-[100%] overflow-scroll 
    "
     >
-      <div className="bucket flex flex-col items-center    container">
+      <div className="bucket flex flex-col items-center container">
         <div className="main flex flex-col gap-[80px]
        md:flex-row
        ">

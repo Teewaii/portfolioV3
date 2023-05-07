@@ -4,6 +4,7 @@ import crowd from '../../img/crowdfunding.jpg';
 import restCountry from '../../img/restCountry.jpg';
 import time_tracking from '../../img/time-tracking.jpg';
 import freelance from '../../img/freelance.jpg';
+import sunnyside from '../../img/sunnyside.jpg';
 
 
 const Images = [
@@ -59,16 +60,17 @@ const Images = [
     },
     {
         id: 5,
-        title: "Crowdfunding ",
-        head: "Crowdfunding Landing Page",
-        desc: "This a crowd funding demo front-end development challenge from Frontendmentor for personal development. Users will be able make a selection of which pledge to make.",
-        pix: crowd,
-        git: 'https://github.com/Teewaii/crowdfunding-product-page.git',
-        live: 'https://teewaii.github.io/crowdfunding-product-page/',
+        title: "Static Landing Page",
+        head: "Static Landing Page",
+        desc: "This a single static page project that I decided to play around with while tring to master CSS grid and I also love the UI layout and color contrast of the UI design. It's nothing but a static landing page and the design was gottent from frontendmentor.io",
+        pix: sunnyside,
+        git: 'https://github.com/Teewaii/Sunnyside-agency-landing-page-repo.git',
+        live: 'https://teewaii.github.io/Sunnyside-agency-landing-page-repo/',
         tools: [
-            "React.js", "SCSS"
+            "CSS", "Javascript"
         ]
     },
+
 
     {
         id: 6,
@@ -83,6 +85,18 @@ const Images = [
         ]
     },
 
+    {
+        id: 7,
+        title: "Crowdfunding ",
+        head: "Crowdfunding Landing Page",
+        desc: "This a crowd funding demo front-end development challenge from Frontendmentor for personal development. Users will be able make a selection of which pledge to make.",
+        pix: crowd,
+        git: 'https://github.com/Teewaii/crowdfunding-product-page.git',
+        live: 'https://teewaii.github.io/crowdfunding-product-page/',
+        tools: [
+            "React.js", "SCSS"
+        ]
+    },
 
 ]
 
