@@ -1,5 +1,7 @@
-import sass from '../../img/sass.jpg';
+// import sass from '../../img/sass.jpg';
+
 import easy from '../../img/easy.jpg';
+import sabi_mockup from '../../img/sabi-01.jpg';
 import crowd from '../../img/crowdfunding.jpg';
 import restCountry from '../../img/restCountry.jpg';
 import time_tracking from '../../img/time-tracking.jpg';
@@ -35,12 +37,12 @@ const Images = [
     },
     {
         id: 3,
-        title: "Sass Landing Page ",
-        head: "Digital Marketing Landing Page ",
-        desc: "A personal project intended for a digital marketing company that showcases the company's products and services. ",
-        pix: sass,
-        git: 'https://github.com/Teewaii/Digital-Marketing.git',
-        live: 'https://teewaii.github.io/Digital-Marketing',
+        title: "Construction Single Page",
+        head: "Construction Single Page Website ",
+        desc: "A personal project intended for a construction company that showcases the company's products and services. ",
+        pix: sabi_mockup,
+        git: 'https://github.com/Teewaii/sabi-construction.git',
+        live: 'https://teewaii.github.io/sabi-construction/',
         tools: [
             "React.js", "TailwindCSS"
         ]
@@ -97,6 +99,20 @@ const Images = [
             "React.js", "SCSS"
         ]
     },
+
+
+    // {
+    //     id: 3,
+    //     title: "Sass Landing Page ",
+    //     head: "Digital Marketing Landing Page ",
+    //     desc: "A personal project intended for a digital marketing company that showcases the company's products and services. ",
+    //     pix: sass,
+    //     git: 'https://github.com/Teewaii/Digital-Marketing.git',
+    //     live: 'https://teewaii.github.io/Digital-Marketing',
+    //     tools: [
+    //         "React.js", "TailwindCSS"
+    //     ]
+    // },
 
 ]
 
