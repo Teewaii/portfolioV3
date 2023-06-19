@@ -7,6 +7,7 @@ import restCountry from '../../img/restCountry.jpg';
 import time_tracking from '../../img/time-tracking.jpg';
 import freelance from '../../img/freelance.jpg';
 import sunnyside from '../../img/sunnyside.jpg';
+import edex from '../../img/edex_mock.jpg';
 
 
 const Images = [
@@ -23,8 +24,20 @@ const Images = [
         ]
     },
     {
-
         id: 2,
+        title: "e-learning",
+        head: "e-learning website landing page",
+        desc: "A personal project intended for e-learning services. ",
+        pix: edex,
+        git: 'https://github.com/Teewaii/edex.git',
+        live: 'https://teewaii.github.io/edex/',
+        tools: [
+            "React.js", "TailwindCSS"
+        ]
+    },
+    {
+
+        id: 3,
         title: "Hire Freelancer ",
         head: "Hire Freelancer Landing Page ",
         desc: "This is a demo website for hiring freelance. The project was built for the purpose of having a feel of Next js.",
@@ -36,7 +49,7 @@ const Images = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Construction Single Page",
         head: "Construction Single Page Website ",
         desc: "A personal project intended for a construction company that showcases the company's products and services. ",
@@ -49,7 +62,7 @@ const Images = [
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Easybank LP ",
         head: "Easybank Landing Page",
         desc: "This a bank demo front-end development challenge from Frontendmentor for personal development. ",
@@ -61,7 +74,7 @@ const Images = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: "Static Landing Page",
         head: "Static Landing Page",
         desc: "This a single static page project that I decided to play around with while tring to master CSS grid and I also love the UI layout and color contrast of the UI design. It's nothing but a static landing page and the design was gottent from frontendmentor.io",
@@ -75,7 +88,7 @@ const Images = [
 
 
     {
-        id: 6,
+        id: 7,
         title: "Time tracking ",
         head: "Time tracking",
         desc: "This a Time tracking demo front-end development challenge from Frontendmentor for personal development. Users will be able to View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page, Switch between viewing Daily, Weekly, and Monthly stats. ",
@@ -87,18 +100,18 @@ const Images = [
         ]
     },
 
-    {
-        id: 7,
-        title: "Crowdfunding ",
-        head: "Crowdfunding Landing Page",
-        desc: "This a crowd funding demo front-end development challenge from Frontendmentor for personal development. Users will be able make a selection of which pledge to make.",
-        pix: crowd,
-        git: 'https://github.com/Teewaii/crowdfunding-product-page.git',
-        live: 'https://teewaii.github.io/crowdfunding-product-page/',
-        tools: [
-            "React.js", "SCSS"
-        ]
-    },
+    // {
+    //     id: 7,
+    //     title: "Crowdfunding ",
+    //     head: "Crowdfunding Landing Page",
+    //     desc: "This a crowd funding demo front-end development challenge from Frontendmentor for personal development. Users will be able make a selection of which pledge to make.",
+    //     pix: crowd,
+    //     git: 'https://github.com/Teewaii/crowdfunding-product-page.git',
+    //     live: 'https://teewaii.github.io/crowdfunding-product-page/',
+    //     tools: [
+    //         "React.js", "SCSS"
+    //     ]
+    // },
 
 
     // {
