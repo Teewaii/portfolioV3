@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.70fb7152.css",
-    "main.js": "/static/js/main.cb6c8fbf.js",
+    "main.js": "/static/js/main.9b8a75e8.js",
     "static/media/shot.svg": "/static/media/shot.daea0a4a8811e2509dc6005c9c3ee71b.svg",
     "static/media/freelance.jpg": "/static/media/freelance.5f89caf44c61fabe535f.jpg",
     "static/media/spiral-lg.svg": "/static/media/spiral-lg.42b25ea858ed41be273c.svg",
     "static/media/spiral-mob.svg": "/static/media/spiral-mob.6869fa6fdb273e7c8af1.svg",
     "static/media/sunnyside.jpg": "/static/media/sunnyside.f676005a14ca4aec61a0.jpg",
+    "static/media/edex_mock.jpg": "/static/media/edex_mock.3a68d49c6246d95df0e0.jpg",
     "static/media/time-tracking.jpg": "/static/media/time-tracking.28b9a260fc109ff92b7a.jpg",
     "static/media/sabi-01.jpg": "/static/media/sabi-01.e1b0f725981752270d03.jpg",
     "static/media/easy.jpg": "/static/media/easy.5af182edef65ca54bc48.jpg",
@@ -25,10 +26,10 @@
     "static/media/hamburger.svg": "/static/media/hamburger.ac42f6b03e9f6c113afc0464e781195b.svg",
     "static/media/close.svg": "/static/media/close.6ba031feba26f3c2db1bcc011ff56df9.svg",
     "main.70fb7152.css.map": "/static/css/main.70fb7152.css.map",
-    "main.cb6c8fbf.js.map": "/static/js/main.cb6c8fbf.js.map"
+    "main.9b8a75e8.js.map": "/static/js/main.9b8a75e8.js.map"
   },
   "entrypoints": [
     "static/css/main.70fb7152.css",
-    "static/js/main.cb6c8fbf.js"
+    "static/js/main.9b8a75e8.js"
   ]
 }
