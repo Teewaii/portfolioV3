@@ -39,7 +39,7 @@ export default function About() {
         
         '>Hi, I’m Taiye and I love building software products & services that promotes business and economic growths with great user experience and accessibility. <br /><br />
 
-              <span className='font-bold bg-green p-1'> Over the last 10 years</span> I have worked in both the advertising and IT industry through which I have been able to demonstrate exceptional skills in graphic/product design, people management, web development and efficient problem solving.<br /> <br />
+              <span className='font-bold bg-green p-1'> Over the last 5 years</span> I have worked in both the advertising and IT industry through which I have been able to demonstrate exceptional skills in graphic/product design, people management, web development and efficient problem solving.<br /> <br />
 
               My interest in software  development started in 2013 with visual basic. In 2016 I developed more interest in web development through which I was priviledged to work on different amazing web projects across different industries  specificaly using WordPress.<br /> <br />
 
@@ -84,7 +84,7 @@ export default function About() {
                 </span>
               </div>
               <div className="resume">
-                <a href='/Taiye_Ajimati_resume.pdf' download='Taiye Ajimati Resume' className='border-primary border-2 px-5 py-4 text-primary rounded-lg hover:bg-primary transition-color duration-300 ease-in-out hover:text-white'>Download Resume</a>
+                <a href='/Taiye Ajimati_FED.pdf' download='Taiye Ajimati Resume' className='border-primary border-2 px-5 py-4 text-primary rounded-lg hover:bg-primary transition-color duration-300 ease-in-out hover:text-white'>Download Resume</a>
               </div>
             </motion.div>
             {/* End of download resume button */}
