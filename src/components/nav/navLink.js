@@ -1,10 +1,8 @@
 import homeIcon from "../../img/home.svg";
-import { BeakerIcon } from "@heroicons/react/24/solid";
 import AboutIcon from "../../img/About.svg";
 import experienceIcon from "../../img/experience.svg";
 import projectIcon from "../../img/project.svg";
 import contactIcon from "../../img/cont.svg";
-import resumeIcon from "../../img/resume.svg";
 
 const links = [
   {
