@@ -39,12 +39,13 @@ export default function SideNav({ toggle, toggleMenu, setToggle }) {
       onClick={() => setToggle(true)}
       className={
         toggle
-          ? "absolute left-[-400px] top-0 bottom-0  bg-navbg text-[white] w-fit pl-20 h-[100vh] py-[2rem] lg:py-[5rem] space-y-16 md:space-y-20 2xl:space-y-28 group z-50 transition-all ease-in-out duration-300 "
-          : " absolute left-[0px] top-0 bottom-0 lg:block bg-navbg text-[white] w-fit hover:max-w-[230px] pl-8 h-[100vh] py-[5rem] space-y-16 md:space-y-20 2xl:space-y-28  group z-[90000] transition-all ease-in-out duration-300 "
+          ? "  fixed left-[-400px]  top-0 bottom-0 bg-navbg text-[white] hover:max-w-[230px] max-w-[80%] ease-in-out duration-300 pl-8 h-[100vh] py-[5rem] space-y-16 md:space-y-20 lg:left-0  lg:max-w-[150px] lg:block  2xl:space-y-28  group z-[90000] transition-all ease-in-out duration-300  "
+          : "fixed  left-0  top-0 bottom-0 bg-navbg text-[white] max-w-[80%]  pl-20 h-[100vh] py-[2rem] lg:py-[5rem] space-y-16 md:space-y-20 2xl:space-y-28 group z-50 transition-all ease-in-out duration-300  "
       }
+
       // {
       //   //   toggle
-      //   //     ? "absolute left-[0px] top-0 bottom-0 bg-navbg text-[white] w-fit pl-20 h-[100vh] py-[2rem] lg:py-[5rem] space-y-16 md:space-y-20 2xl:space-y-28 group z-50 transition-all ease-in-out duration-300 "
+      //   //     ? "absolute top-0 bottom-0 bg-navbg text-[white] w-fit pl-20 h-[100vh] py-[2rem] lg:py-[5rem] space-y-16 md:space-y-20 2xl:space-y-28 group z-50 transition-all ease-in-out duration-300 "
       //   //     : "absolute left-[-400px] top-0 bottom-0 bg-navbg text-[white] w-fit pl-20 h-[100vh] py-[2rem] lg:py-[5rem] space-y-16 md:space-y-20 2xl:space-y-28 group z-50 transition-all ease-in-out duration-300 "
       //   // }
     >
