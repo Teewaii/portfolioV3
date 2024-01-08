@@ -39,7 +39,7 @@ function App() {
   window.addEventListener("scroll", NavShadow);
 
   return (
-    <main className={toggle ? "App relative " : "h-[100vh] overflow-hidden"}>
+    <main className={toggle ? "App relative " : "h-[90vh] overflow-hidden"}>
       {/* <Nav
         toggle={toggle}
         toggleMenu={toggleMenu}
