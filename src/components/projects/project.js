@@ -2,11 +2,8 @@
 
 import easy from "../../img/easy.jpg";
 import sabi_mockup from "../../img/sabi-01.jpg";
-import crowd from "../../img/crowdfunding.jpg";
 import restCountry from "../../img/restCountry.jpg";
-import time_tracking from "../../img/time-tracking.jpg";
 import freelance from "../../img/freelance.jpg";
-import sunnyside from "../../img/sunnyside.jpg";
 import edex from "../../img/edex_mock.jpg";
 
 const Images = [
@@ -61,6 +58,7 @@ const Images = [
     live: "https://teewaii.github.io/easybank-landing-page",
     tools: ["React.js", "TailwindCSS"],
   },
+
   //   {
   //     id: 6,
   //     title: "Static Landing Page",
@@ -72,16 +70,16 @@ const Images = [
   //     tools: ["CSS", "Javascript"],
   //   },
 
-  {
-    id: 7,
-    title: "Time tracking ",
-    head: "Time tracking",
-    desc: "This a Time tracking demo front-end development challenge from Frontendmentor for personal development. Users will be able to View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page, Switch between viewing Daily, Weekly, and Monthly stats. ",
-    pix: time_tracking,
-    git: "https://github.com/Teewaii/Time-tracking-dashboard-repo.git",
-    live: " https://teewaii.github.io/Time-tracking-dashboard-repo/",
-    tools: ["CSS", "Javascript"],
-  },
+  // {
+  //   id: 7,
+  //   title: "Time tracking ",
+  //   head: "Time tracking",
+  //   desc: "This a Time tracking demo front-end development challenge from Frontendmentor for personal development. Users will be able to View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page, Switch between viewing Daily, Weekly, and Monthly stats. ",
+  //   pix: time_tracking,
+  //   git: "https://github.com/Teewaii/Time-tracking-dashboard-repo.git",
+  //   live: " https://teewaii.github.io/Time-tracking-dashboard-repo/",
+  //   tools: ["CSS", "Javascript"],
+  // },
 
   // {
   //     id: 7,

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import projects from "./project";
 import ProjectScroll from "../projectScroll/ProjectScroll";
 import { motion } from "framer-motion";
@@ -11,7 +11,7 @@ export default function Projects({ project, activeProject }) {
      flex justify-center items-center  md:py-[7rem] xl:py-[5rem] 3xl-xl:py-[1rem] pb-10 
     "
     >
-      <div className="bucket flex flex-col items-center py-[30px] lg:py-0   w-screen   ">
+      <div className="bucket flex flex-col items-center py-[30px] lg:py-0 w-screen   ">
         <div className="section-title flex flex-col items-start container lg:items-center">
           <h1 className="project-header text-white mb-4  text-[1.5rem] lg:text-[2rem]  w-fit relative  before:absolute before:left-0 before:right-0 before:bg-green before:h-1 before:bottom-0 before:z-[-1] z-40 ">
             Projects
@@ -54,7 +54,7 @@ export default function Projects({ project, activeProject }) {
           ))}
         </motion.div>
         <div
-          className="experience-wrapper   rounded-xl px-0  border-opacity-[0.1] border-secondary 
+          className="experience-wrapper rounded-xl px-0 border-opacity-[0.1] border-secondary 
          container mt-[20px]   md:pl-[20px] lg:pl-[70px]  3xl:pl-[100px] lg:max-w-[80%]  
       "
         >
@@ -65,7 +65,7 @@ export default function Projects({ project, activeProject }) {
           >
             {/* Projects list controller start */}
             <motion.div
-              className="scroll_wrapper hidden lg:flex 
+              className="scroll_wrapper  hidden lg:flex 
             lg:items-centser 
             "
               initial={{ x: -20 }}
@@ -185,7 +185,7 @@ export default function Projects({ project, activeProject }) {
                     </div>
                   </div>
 
-                  <div className="img  flex flex-[1.1] rounded-xl overflow-hidden">
+                  <div className="img flex flex-[1.1] rounded-xl overflow-hidden">
                     <a href={item.live} target="_blank">
                       <img
                         className="h-fit w-[100%] object-fit"
