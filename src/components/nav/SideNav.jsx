@@ -61,7 +61,7 @@ Mapping through the navigation list items */}
                   className="h-5 lg:h-4 2xl:h-5 inline "
                   src={item.icon}
                   alt="nav-item-icon"
-                />{" "}
+                />
                 <p className="text-sm uppercase 2xl:text-md w-[100%] py-3 lg:py-3 2xl:py-4 group-hover:flex item-start pr-8 flex lg:hidden ease-in-out duration-300    ">
                   {item.title}
                 </p>
@@ -79,8 +79,8 @@ Mapping through the navigation list items */}
               <img
                 className="h-5 lg:h-4 2xl:h-5 inline "
                 src={resumeIcon}
-                alt=""
-              />{" "}
+                alt="resumeIcon"
+              />
               <p className="text-sm uppercase 2xl:text-md w-[100%] py-3 lg:py-3 2xl:py-4 group-hover:flex item-start pr-8 flex lg:hidden ease-in-out duration-300">
                 Resume
               </p>

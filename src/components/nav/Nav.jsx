@@ -29,23 +29,23 @@ export default function Nav({ toggle, toggleMenu, setToggle }) {
             <img className="w-[40px] lg:w-[50px] " src={logo} alt="logo" />
           </Link>
         </div>
-        <div className="links z-40 ">
+        <div className=" links z-40 ">
           <ul
             className={
               toggle
-                ? "hidden  md:bg-opacity-0 flex-col items-start  gap-[20px] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0 "
-                : "  flex flex-col items-start  bg-[white]  md:bg-[inherit] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0"
+                ? "hidden md:bg-opacity-0 flex-col items-start  gap-[20px] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0 "
+                : " flex flex-col items-start  bg-[white]  md:bg-[inherit] absolute top-0 left-0 right-0 pt-[128px] pb-[44px]  md:flex md:gap-[30px] md:flex-row md:relative md:p-0"
             }
             onClick={() => setToggle(true)}
           >
             <li
-              className="block  text-left mt-[20px] text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+              className="block text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
               md:text-[white]  md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0 cursor-pointer
               "
             >
               <Link
                 to="about"
-                className=" ml-[40px] lg:ml-[0px]"
+                className="ml-[40px] lg:ml-[0px]"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -58,8 +58,8 @@ export default function Nav({ toggle, toggleMenu, setToggle }) {
             </li>
 
             <li
-              className="block  text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
-              md:text-[white]   md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0 cursor-pointer"
+              className="block text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+              md:text-[white] md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0 cursor-pointer"
             >
               <Link
                 to="experience"
@@ -75,7 +75,7 @@ export default function Nav({ toggle, toggleMenu, setToggle }) {
               </Link>
             </li>
             <li
-              className="block  text-left mt-[20px]  text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+              className="block text-left mt-[20px]  text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
                md:text-[white]  md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0 cursor-pointer"
             >
               <Link
@@ -93,7 +93,7 @@ export default function Nav({ toggle, toggleMenu, setToggle }) {
             </li>
 
             <li
-              className="block  text-left mt-[20px]  text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+              className="block text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
                md:text-[white]  md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0 cursor-pointer"
             >
               <Link
@@ -111,7 +111,7 @@ export default function Nav({ toggle, toggleMenu, setToggle }) {
             </li>
 
             <li
-              className="block  text-left mt-[20px]   text-primary  font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
+              className="block text-left mt-[20px] text-primary font-medium border-b-[0.4px] border-opacity-[0.5] border-lightprim pb-[20px] w-[100%] hover:border-b-[1.5px]  hover:border-b-primary hover:w-[80%] ease-in-out duration-300 
                 md:text-[white] md:border-b-0 md:pb-0 md:mt-0 md:hover:border-b-0 cursor-pointer"
             >
               <Link

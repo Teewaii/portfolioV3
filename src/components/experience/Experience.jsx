@@ -16,11 +16,11 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className=" flex items-center justify-center   experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative  overflow-hidden "
+      className=" flex items-center justify-center experience max-h-sm:min-h-[100vh] sm:h-fit sm:md:py-24 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative  overflow-hidden "
     >
       {/* Main content container */}
       <div
-        className="main pt-[4rem]  pb-[2rem] md:pb-[0] md:pt-[0] lg:pt-[60px]  flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
+        className="main pt-[4rem] pb-[2rem] md:pb-[0] md:pt-[0] lg:pt-[60px] flex flex-col items-center container  md:pl-[20px] lg:pl-[150px] 3xl:pl-[100px] lg:max-w-[80%] 3xl:max-w-[75%] 
      "
       >
         <div className="section-title gap-y-4 lg:gap-y-0 flex flex-col items-start  lg:items-center">
