@@ -22,13 +22,13 @@ export default function TopNav({
       <div className="toggles " onClick={toggleMenu}>
         {toggle ? (
           <img
-            className="lg:hidden w-[40px]   cursor-pointer"
+            className="lg:hidden w-[28px] md:w-[35px]   cursor-pointer"
             src={hamburger}
             alt="hamburger"
           />
         ) : (
           <img
-            className="lg:hidden w-[40px]  md:w-[27px]  cursor-pointer"
+            className="lg:hidden w-[28px]  md:w-[35px]  cursor-pointer"
             src={close}
             alt="close-menu"
           />

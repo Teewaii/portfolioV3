@@ -43,7 +43,7 @@ export default function Hello() {
             initial={{ x: -10, opacity: 0.8 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="body text-green text-sm text-left mb-5 sm:mb-10 md:py-10 md:text-[23px] md:leading-[35px] md:max-w-[700px] lg:text-[18px] lg:leading-6 lg:py-0 xl:mb-14 2xl:text-lg 2xl:max-w-[60%] 2xl:mb-24
+            className="body text-green py-4 text-sm text-left mb-5 sm:mb-10 md:py-10 md:text-[23px] md:leading-[35px] md:max-w-[700px] lg:text-[18px] lg:leading-6 lg:py-0 xl:mb-14 2xl:text-lg 2xl:max-w-[60%] 2xl:mb-24
                "
           >
             I’m a software engineer with focus in frontend development and I

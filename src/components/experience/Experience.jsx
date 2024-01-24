@@ -16,7 +16,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className=" flex items-center justify-center experience max-h-sm:min-h-[100vh] sm:h-fit sm:md:py-24 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative  overflow-hidden "
+      className=" flex items-center justify-center experience min-h-[100vh] 2xl:min-h-[70vh] 3xl:min-h-[62vh] bg-primary relative  overflow-hidden "
     >
       {/* Main content container */}
       <div
