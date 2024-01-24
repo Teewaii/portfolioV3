@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
-export default function Btn({ color, hoverBkgColor, hoverTextColor }) {
+export default function Btn() {
   return (
     <div className="relative w-fit">
       <div className="seeProject flex cursor-pointer">
         <Link
           to="project"
-          className={`flex flex-row-reverse bg-${color} group text-[20px] relative text-[white] gap-2 md:gap-3 items-center rounded-[10px] py-[14px] border-2
+          className="flex flex-row-reverse  group text-[20px] relative text-[white] gap-2 md:gap-3 items-center rounded-[10px] py-[14px] border-2
       px-[15px] md:text-[25px] md:py-[20px] md:px-[40px] lg:py-[15px] lg:px-[20px] 2xl:py-[12px] 2xl:px-[20px] font-medium overflow-hidden hover:ease-in-out
-      hover:border-0 hover:bg-${hoverBkgColor} duration-500 bg-transparent hover:text-${hoverTextColor} `}
+      hover:border-0 hover:bg-green duration-500 bg-transparent hover:text-primary"
         >
           <span className="animate-pulse -rotate-45 group-hover:rotate-0 w-[20px] h-[25px] md:w-[30px] md:h-[35px] lg:w-[25px] lg:h-[30px]">
             <svg

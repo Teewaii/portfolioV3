@@ -9,7 +9,7 @@ export default function Footer() {
     window.open("mailto:taiyeajimati@gmail.com?subject=SendMail&bodyde");
   }
   return (
-    <section
+    <footer
       id="contact"
       className=" bg-primary relative py-[2rem] min-h-[50vh]
     2xl:min-h-[40vh]  lg:pt-[9rem] 
@@ -71,6 +71,6 @@ export default function Footer() {
           </small>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

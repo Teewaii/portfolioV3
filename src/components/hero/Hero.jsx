@@ -10,7 +10,7 @@ export default function Hello() {
       className="hero bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] lg:pt-10 overflow-hidden relative after:hidden before:hidden md:after:block md:before:block  "
     >
       {/* Main content container */}
-      <div className="main hero-container flex h-[70vh] sm:h-[75vh] lg:h-[60vh] xl:h-[75vh] max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
+      <div className="main hero-container flex h-[70vh] sm:h-[75vh] lg:h-[60vh] xl:h-[76vh] max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
         <div className="pt-14 desc flex flex-col items-start justify-center lg:pt-0 sm:py-20 lg:py-14 lg:px-[120px] 2xl:lg:px-[0px] ">
           <motion.div
             className="intro text-left"
@@ -32,7 +32,7 @@ export default function Hello() {
             initial={{ x: 10, opacity: 0.3 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="header font-700  text-[white] text-left mb-2 leading-10 sm:text-5xl sm:leading-[60px] 2xl:text-7xl xl:max-w-[75%] 2xl:max-w-[70%] lg:leading-[60px] 2xl:leading-[90px] tracking-normal "
+            className="header font-700 text-[white] text-left mb-2 leading-10 sm:text-5xl sm:leading-[60px] lg:text-3xl w-[100%] 2xl:text-7xl xl:max-w-[75%] 2xl:max-w-[70%] lg:leading-[60px] 2xl:leading-[90px] tracking-normal "
           >
             I <span className="text-green">Design</span> &{" "}
             <span className="text-green">Build</span>
@@ -51,11 +51,7 @@ export default function Hello() {
             accessibility.{" "}
           </motion.p>
 
-          <Btn
-            bkgColor="primary"
-            hoverBkgColor="green"
-            hoverTextColor="primary"
-          />
+          <Btn />
         </div>
       </div>
 
