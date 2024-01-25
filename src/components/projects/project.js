@@ -1,14 +1,23 @@
-// import sass from '../../img/sass.jpg';
-
 import easy from "../../img/easy.jpg";
 import sabi_mockup from "../../img/sabi-01.jpg";
 import restCountry from "../../img/restCountry.jpg";
 import freelance from "../../img/freelance.jpg";
 import edex from "../../img/edex_mock.jpg";
+import properLand from "../../img/properLand.jpg";
 
 const Images = [
   {
     id: 1,
+    title: "Properland",
+    head: "Properland Real Estate",
+    desc: "This is a fully functional multi-page website template customized for real estate companies. Developed by me and the UI was designed by victoflow.",
+    pix: properLand,
+    git: "git@github.com:Teewaii/ProperLand.git",
+    live: "https://teewaii.github.io/ProperLand/",
+    tools: ["React.js", "TailwindCSS"],
+  },
+  {
+    id: 2,
     title: "Rest Country APi ",
     head: "Rest Country APi",
     desc: "This is a practice project from frontend mentor. The aim of this challenge is to integrate the REST Countries API to pull country data and display it. Users should be able to filter the countries with different parameters.",
@@ -18,7 +27,7 @@ const Images = [
     tools: ["React.js", "TailwindCSS"],
   },
   {
-    id: 2,
+    id: 3,
     title: "e-learning",
     head: "e-learning website landing page",
     desc: "Dive into the world of online education with my E-Learning Hub Landing Page, a captivating showcase of the power of React and the elegance of Tailwind CSS. This project is the perfect gateway to a universe of knowledge and self-improvement.",
@@ -28,7 +37,7 @@ const Images = [
     tools: ["React.js", "TailwindCSS"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Hire Freelancer ",
     head: "Hire Freelancer Landing Page ",
     desc: "This is a demo website for hiring freelancers. The project was built for the purpose of having a feel of Next js.",
@@ -38,7 +47,7 @@ const Images = [
     tools: ["React.js", "Next js", "TailwindCSS"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Construction Single Page",
     head: "Construction Single Page Website ",
     desc: "A one pager personal project intended for a construction company that showcases the company's products and services. ",
@@ -48,16 +57,16 @@ const Images = [
     tools: ["React.js", "TailwindCSS"],
   },
 
-  {
-    id: 5,
-    title: "Easybank LP ",
-    head: "Easybank Landing Page",
-    desc: "This a bank demo front-end development challenge from Frontendmentor for personal development. ",
-    pix: easy,
-    git: "https://github.com/Teewaii/easybank-landing-page.git",
-    live: "https://teewaii.github.io/easybank-landing-page",
-    tools: ["React.js", "TailwindCSS"],
-  },
+  // {
+  //   id: 6,
+  //   title: "Easybank LP ",
+  //   head: "Easybank Landing Page",
+  //   desc: "This a bank demo front-end development challenge from Frontendmentor for personal development. ",
+  //   pix: easy,
+  //   git: "https://github.com/Teewaii/easybank-landing-page.git",
+  //   live: "https://teewaii.github.io/easybank-landing-page",
+  //   tools: ["React.js", "TailwindCSS"],
+  // },
 
   //   {
   //     id: 6,
