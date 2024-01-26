@@ -32,7 +32,7 @@ export default function Hello() {
             initial={{ x: 10, opacity: 0.3 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="header font-700 text-[white] text-left mb-2 leading-10 sm:text-5xl sm:leading-[60px] lg:text-3xl w-[100%] 2xl:text-7xl xl:max-w-[75%] 2xl:max-w-[70%] lg:leading-[60px] 2xl:leading-[90px] tracking-normal "
+            className="header font-700 text-[white] text-left mb-2 leading-10 tracking-normal sm:text-5xl sm:leading-[60px] lg:text-3xl w-[100%]  lg:leading-[60px] xl:text-5xl xl:leading-[65px] xl:max-w-[75%] 2xl:max-w-[70%] 2xl:text-7xl 2xl:leading-[90px]"
           >
             I <span className="text-green">Design</span> &{" "}
             <span className="text-green">Build</span>
