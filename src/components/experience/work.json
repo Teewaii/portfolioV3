@@ -1,12 +1,6 @@
 [
   {
     "id": 1,
-    "company": "Study Break",
-    "title": "MSc. Data Science and Artificial Intelligence, University of Hull",
-    "year": "Jan. 2023 - Jan. 2024"
-  },
-  {
-    "id": 2,
     "company": "Rimal Int'l Adv. & Co., U.A.E",
     "title": "Web/UI Designer",
     "type": "Full time",
@@ -20,7 +14,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "company": "Sprout Digital",
     "title": "Web/UI Developer",
     "type": "Full time",
@@ -37,7 +31,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "company": "240 Media Nig Ltd",
     "title": "Graphic Designer",
     "type": "Full time",
@@ -53,7 +47,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 4,
     "company": "codeITng.",
     "title": "Instructional Facilitator ",
     "type": "Volunteered",
@@ -64,7 +58,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 5,
     "company": "YouthhubAfrica.",
     "title": "Creative Designer - ",
     "type": "Volunteered",
