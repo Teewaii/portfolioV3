@@ -72,7 +72,8 @@ Mapping through the navigation list items */}
           ))}
           <li className="bg-nav pl-6  hover:bg-primary  rounded-tl-md rounded-bl-md w-[100%] lg:pr-8 pr-2">
             <a
-              href="/Taiye Ajimati_FED.pdf"
+              href="#"
+              // href="/Taiye Ajimati_FED.pdf"
               download="Taiye Ajimati Resume"
               className="flex items-center gap-7 cursor-pointer lg:py-3 2xl:py-4 group-hover:py-0  "
             >
