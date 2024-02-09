@@ -30,24 +30,9 @@
       "Collaborated with product team members to implement new feature developments."
     ]
   },
+
   {
     "id": 3,
-    "company": "240 Media Nig Ltd",
-    "title": "Graphic Designer",
-    "type": "Full time",
-    "year": "2015-2018",
-    "desc": [
-      "Created books and magazines layouts for companies and associations",
-      " Created website and social media ads materials for marketing and promotions",
-      "Designed gift materials for wedding, birthday other occasions",
-      "Incorporated changes recommended by clients or art directors into final designs",
-      "Reviewed designs for errors before printing or publishing them.",
-      "Prepared files using standard colour and text format before sending to the press",
-      "Maintained constant communication with printing houses."
-    ]
-  },
-  {
-    "id": 4,
     "company": "codeITng.",
     "title": "Instructional Facilitator ",
     "type": "Volunteered",
@@ -58,7 +43,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "company": "YouthhubAfrica.",
     "title": "Creative Designer - ",
     "type": "Volunteered",
