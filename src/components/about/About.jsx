@@ -1,7 +1,4 @@
 import React from "react";
-import right_arrow from "../../img/rightArrow.svg";
-import right_down from "../../img/downArrow.svg";
-import Btn_sec from "../btn/Btn-sec";
 import hdshot from "../../img/short_new.svg";
 // import hdshot from '../../img/shot.svg';
 import { motion } from "framer-motion";

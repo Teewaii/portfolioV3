@@ -1,4 +1,3 @@
-import easy from "../../img/easy.jpg";
 import sabi_mockup from "../../img/sabi-01.jpg";
 import restCountry from "../../img/restCountry.jpg";
 import freelance from "../../img/freelance.jpg";
@@ -10,7 +9,7 @@ const Images = [
     id: 1,
     title: "Properland",
     head: "Properland Real Estate",
-    desc: "This is a fully functional multi-page website template customized for real estate companies. Developed by me and the UI was designed by victoflow.",
+    desc: "This project presents a comprehensive multi-page website template tailored for real estate companies, with the flexibility to adapt to diverse organizational requirements. \n\n A special acknowledgment goes to the project's UI designer, victoflow, whose clean and functional design significantly contributed to the development of this initiative. \n\nFeel free to explore and interact with the live site!",
     pix: properLand,
     git: "git@github.com:Teewaii/ProperLand.git",
     live: "https://teewaii.github.io/ProperLand/",
@@ -20,7 +19,7 @@ const Images = [
     id: 2,
     title: "Rest Country APi ",
     head: "Rest Country APi",
-    desc: "This is a practice project from frontend mentor. The aim of this challenge is to integrate the REST Countries API to pull country data and display it. Users should be able to filter the countries with different parameters.",
+    desc: "I implemented this project using React Js. It's a front-end changllenge project from Frontend mentor. \n\nI seamlessly tackled the challenge of integrating with a REST Countries API to fetch and display country data, aligning with the provided designs. In crafting this solution, The frontend implementation is flexible, allowing users to:  \n\nExplore all countries retrieved from the API on the homepage, Conveniently search for a specific country using an input field, Filter countries by region for a streamlined navigation experience and lot more, access detailed information about a country on a dedicated separate page, Navigate through bordering countries directly from the detail page and lot more!",
     pix: restCountry,
     git: "https://github.com/Teewaii/restCountries.git",
     live: "https://rest-countries-weld.vercel.app/",
@@ -30,7 +29,7 @@ const Images = [
     id: 3,
     title: "e-learning",
     head: "e-learning website landing page",
-    desc: "Dive into the world of online education with my E-Learning Hub Landing Page, a captivating showcase of the power of React and the elegance of Tailwind CSS. This project is the perfect gateway to a universe of knowledge and self-improvement.",
+    desc: "Dive into the world of online education with this E-Learning Hub's landing page, a captivating showcase of the power of React and the elegance of Tailwind CSS. This project is the perfect gateway to a universe of knowledge and self-improvement for my development journey.",
     pix: edex,
     git: "https://github.com/Teewaii/edex.git",
     live: "https://teewaii.github.io/edex/",

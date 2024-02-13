@@ -93,9 +93,7 @@ export default function Projects({ project, activeProject }) {
                   }
                   initial={{ x: 20 }}
                   whileInView={{ x: 0 }}
-                  // viewport={{once: true}}
                   transition={{ duration: 1 }}
-                  // transition={{ type: "spring", stiffness: 50 }}
                 >
                   <div
                     className="desc text-left flex flex-col flex-[1] justify-center
@@ -109,9 +107,15 @@ export default function Projects({ project, activeProject }) {
                       >
                         {item.head}
                       </h1>
-                      <p className="text-white opacity-80 text-sm">
-                        {item.desc}
-                      </p>
+                      {/* Split the project description for easy application of line break in the text */}
+                      {item.desc.split("\n").map((line, index) => (
+                        <p
+                          className="text-white opacity-80 text-sm mb-4"
+                          key={index}
+                        >
+                          {line}
+                        </p>
+                      ))}
 
                       <ul className="flex gapx-y-[20px] border-b pb-[20px] border-secondary border-opacity-20">
                         {item.tools.map((tool, index) => {
@@ -186,7 +190,7 @@ export default function Projects({ project, activeProject }) {
                   </div>
 
                   <div className="img flex flex-[1.1] rounded-xl overflow-hidden">
-                    <a href={item.live} target="_blank">
+                    <a href={item.live} target=" ">
                       <img
                         className="h-fit w-[100%] object-fit"
                         src={item.pix}
