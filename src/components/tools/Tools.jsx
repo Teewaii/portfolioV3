@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Tools() {
   return (
     <section
-      className="tools absolute bottom-0 bg-[white] w-screen lg:h-[18vh]
+      className="tools absolute bottom-0 bg-[white] w-screen h-[17vh]
     lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[58%] 5xl:after:left-[62%]  lg:after:top-[50%] lg:after:bg-primary lg:after:h-[2px]  after:opacity-50  "
     >
       <div
