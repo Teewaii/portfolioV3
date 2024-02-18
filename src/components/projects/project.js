@@ -9,7 +9,7 @@ const Images = [
     id: 1,
     title: "Properland",
     head: "Properland Real Estate",
-    desc: "This project presents a comprehensive multi-page website template tailored for real estate companies, with the flexibility to adapt to diverse organizational requirements. \n\n A special acknowledgment goes to the project's UI designer, victoflow, whose clean and functional design significantly contributed to the development of this initiative. \n\nFeel free to explore and interact with the live site!",
+    desc: "This project presents a comprehensive multi-page website template tailored for real estate companies, with the flexibility to adapt to diverse organizational requirements. \n\n A special acknowledgment goes to the project's UI designer, victoflow, whose clean and functional design prompted the development of this project and few of the other projects. \n\nFeel free to explore and interact with the live site!",
     pix: properLand,
     git: "git@github.com:Teewaii/ProperLand.git",
     live: "https://teewaii.github.io/ProperLand/",

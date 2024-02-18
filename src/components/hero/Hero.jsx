@@ -7,11 +7,11 @@ export default function Hello() {
   return (
     <section
       id="hero"
-      className="hero bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] lg:pt-10 overflow-hidden relative after:hidden before:hidden md:after:block md:before:block  "
+      className="hero relative bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] overflow-hidden after:hidden before:hidden md:after:block md:before:block lg:pt-0 "
     >
       {/* Main content container */}
-      <div className="main hero-container flex h-[70vh] sm:h-[75vh] lg:h-[60vh] xl:h-[76vh] max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
-        <div className="pt-14 desc flex flex-col items-start justify-center lg:pt-0 sm:py-20 lg:py-14 lg:px-[120px] 2xl:lg:px-[0px] ">
+      <div className="main hero-container h-full flex max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
+        <div className="pt-14 desc flex flex-col items-start justify-center lg:pt-0 sm:py-20 lg:py-14 lg:px-[120px] 2xl:lg:px-[0px]  ">
           <motion.div
             className="intro text-left"
             initial={{ x: -10, opacity: 0.3 }}
@@ -43,7 +43,7 @@ export default function Hello() {
             initial={{ x: -10, opacity: 0.8 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="body text-green py-4 text-sm text-left mb-5 sm:mb-10 md:py-10 md:text-[23px] md:leading-[35px] md:max-w-[700px] lg:text-[18px] lg:leading-6 lg:py-0 xl:mb-14 2xl:text-lg 2xl:max-w-[60%] 2xl:mb-24
+            className="body text-green py-4 text-sm text-left mb-5 sm:mb-10 md:py-10 md:text-[23px] md:leading-[35px] md:max-w-[700px] lg:text-[18px] lg:leading-6 lg:py-0 xl:mb-10 2xl:text-lg 2xl:max-w-[60%] 2xl:mb-16
                "
           >
             I’m a software engineer with focus in frontend development and I
