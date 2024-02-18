@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a06017e.css",
-    "main.js": "/static/js/main.ab27de68.js",
-    "static/media/shot.svg": "/static/media/shot.daea0a4a8811e2509dc6005c9c3ee71b.svg",
+    "main.css": "/static/css/main.00a8ae6c.css",
+    "main.js": "/static/js/main.c13aeca9.js",
     "static/media/short_new.svg": "/static/media/short_new.c3470143e31729a25f770ffcc20a0324.svg",
     "static/media/freelance.jpg": "/static/media/freelance.5f89caf44c61fabe535f.jpg",
     "static/media/spiral-lg.svg": "/static/media/spiral-lg.42b25ea858ed41be273c.svg",
     "static/media/spiral-mob.svg": "/static/media/spiral-mob.6869fa6fdb273e7c8af1.svg",
-    "static/media/sunnyside.jpg": "/static/media/sunnyside.f676005a14ca4aec61a0.jpg",
     "static/media/edex_mock.jpg": "/static/media/edex_mock.3a68d49c6246d95df0e0.jpg",
-    "static/media/time-tracking.jpg": "/static/media/time-tracking.28b9a260fc109ff92b7a.jpg",
     "static/media/sabi-01.jpg": "/static/media/sabi-01.e1b0f725981752270d03.jpg",
-    "static/media/easy.jpg": "/static/media/easy.5af182edef65ca54bc48.jpg",
     "static/media/restCountry.jpg": "/static/media/restCountry.9f826449e1fd25ff19fb.jpg",
-    "static/media/crowdfunding.jpg": "/static/media/crowdfunding.11a5c9e3781cf1504d2a.jpg",
+    "static/media/properLand.jpg": "/static/media/properLand.ebde42de4209b54701c3.jpg",
     "static/media/project.svg": "/static/media/project.bd432e46adbdabb48402667eb1073633.svg",
     "static/media/logo.svg": "/static/media/logo.4f4d0a1c1917a716c21f7ffae49f30f3.svg",
     "static/media/resume.svg": "/static/media/resume.00328ed8885e096e62ee59fe73167044.svg",
@@ -22,15 +18,13 @@
     "static/media/About.svg": "/static/media/About.8fe5163e3b94c2b97dd3c17134101b66.svg",
     "static/media/cont.svg": "/static/media/cont.d9afa250f8883551b7a72afa050667c9.svg",
     "index.html": "/index.html",
-    "static/media/downArrow.svg": "/static/media/downArrow.4865b500edc21f3b4af8178a2d41c337.svg",
-    "static/media/rightArrow.svg": "/static/media/rightArrow.9eb90bba89b61bea045edb9718c6417f.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.ac42f6b03e9f6c113afc0464e781195b.svg",
     "static/media/close.svg": "/static/media/close.6ba031feba26f3c2db1bcc011ff56df9.svg",
-    "main.7a06017e.css.map": "/static/css/main.7a06017e.css.map",
-    "main.ab27de68.js.map": "/static/js/main.ab27de68.js.map"
+    "main.00a8ae6c.css.map": "/static/css/main.00a8ae6c.css.map",
+    "main.c13aeca9.js.map": "/static/js/main.c13aeca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a06017e.css",
-    "static/js/main.ab27de68.js"
+    "static/css/main.00a8ae6c.css",
+    "static/js/main.c13aeca9.js"
   ]
 }
