@@ -10,7 +10,7 @@ export default function Hello() {
       className="hero relative bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] overflow-hidden after:hidden before:hidden md:after:block md:before:block md:pt-0 "
     >
       {/* Main content container */}
-      <div className="main hero-container h-[75vh] md:h-full flex max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
+      <div className="main hero-container h-[70vh] md:h-full flex max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
         <div className="pt-14 desc flex flex-col items-start justify-center lg:pt-0 sm:py-20 lg:py-14 lg:px-[120px] 2xl:lg:px-[0px]  ">
           <motion.div
             className="intro text-left"
