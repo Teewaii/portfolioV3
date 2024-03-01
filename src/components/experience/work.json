@@ -1,6 +1,19 @@
 [
   {
     "id": 1,
+    "company": "Zeeko Technologies Limited, UK",
+    "title": "Fronted Developer",
+    "type": "Part-time",
+    "year": "2023-Till date",
+    "desc": [
+      "Utilized HTML, CSS, JavaScript React JS, and Next JS to produce visually captivating and interactive web interfaces while adhering to the project’s guidelines.",
+      "Optimized website performance for fast loading and a smooth user experience.",
+      "Implemented and built Figma designs and robust user interfaces with great user experience to improve user’s engagement",
+      "Collaborated with the product team to integrate and implement new features on various projects"
+    ]
+  },
+  {
+    "id": 2,
     "company": "Rimal Int'l Adv. & Co., U.A.E",
     "title": "Web/UI Designer",
     "type": "Full time",
@@ -8,13 +21,13 @@
     "desc": [
       "Developed an efficient and maintainable code using HTML, CSS, and JavaScript, adhering to best practices.",
       "Created new features, functionalities, and capabilities on the site using HTML, CSS, WordPress, and JavaScript, Tailwind CSS.",
-      "Designing and implementing HTML email templates and newsletter for marketing campaigns",
-      "Striking a balance between functional and aesthetic design.",
-      "Optimizing web pages for maximum speed and scalability."
+      "Designed and implemented HTML email templates and newsletter for marketing campaigns",
+      "Striked a balance between functional and aesthetic design.",
+      "Optimized web pages for maximum speed and scalability."
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "company": "Sprout Digital",
     "title": "Web/UI Developer",
     "type": "Full time",
@@ -32,7 +45,7 @@
   },
 
   {
-    "id": 3,
+    "id": 4,
     "company": "codeITng.",
     "title": "Instructional Facilitator ",
     "type": "Volunteered",
@@ -43,7 +56,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "company": "YouthhubAfrica.",
     "title": "Creative Designer - ",
     "type": "Volunteered",
