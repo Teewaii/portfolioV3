@@ -8,7 +8,7 @@ export default function Experience() {
 
   function activeTab(index) {
     if (exp === index) {
-      return setExp(1);
+      return setExp(index);
     }
     setExp(index);
   }
@@ -50,77 +50,75 @@ export default function Experience() {
         "
           >
             {/* Mapping throught the list of comapanys */}
-            {work.map((work, index) => {
-              return (
-                <div
-                  className={
-                    exp === index
-                      ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary  ease-in-out duration-300 bg-opacity-[.13] rounded-t-md after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4 "
-                      : "  ProjectTab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "
-                  }
-                  onClick={() => activeTab(index)}
-                  key={index}
-                >
-                  {work.company}
-                </div>
-              );
-            })}
+            {work.map((experience, index) => (
+              <div
+                className={
+                  exp === index
+                    ? "after:rounded-[5px] px-[20px] py-[14px] relative bg-secondary  ease-in-out duration-300 bg-opacity-[.13] rounded-t-md after:absolute after:bg-secondary after:left-0 after:right-0 after:bottom-[4%] after:top-[90%] text-sm lg:text-md cursor-pointer min-w-fit lg:mr-4 "
+                    : "  ProjectTab px-[20px] py-[14px]  cursor-pointer text-sm lg:text-md min-w-fit lg:mr-8 "
+                }
+                onClick={() => activeTab(index)}
+                key={index}
+              >
+                {experience.company}
+              </div>
+            ))}
             {/* end of mapp */}
           </div>
 
           <div className="tab-contents">
-            {work.map((work, index) => {
-              return (
-                <div
-                  className={
-                    exp === index
-                      ? "content text-left lg:ml-[30px] pt-[30px]"
-                      : "projectTab hidden"
-                  }
-                  onClick={() => activeTab(index)}
-                  key={index}
-                >
-                  <div className="top flex flex-col lg:flex-row mb-[20px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
-                    <h1 className="text-[white] text-xl ">{work.title}</h1>
-                    <div className="duration flex gap-2 items-center">
-                      {work.type && (
-                        <span className="text-secondary ">({work.type}): </span>
-                      )}
-                      <h2 className="text-md text-green"> {work.year}</h2>
-                    </div>
+            {work.map((experience, index) => (
+              <div
+                className={
+                  exp === index
+                    ? "content text-left lg:ml-[30px] pt-[30px]"
+                    : "projectTab hidden"
+                }
+                onClick={() => activeTab(index)}
+                key={index}
+              >
+                <div className="top flex flex-col lg:flex-row mb-[20px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
+                  <h1 className="text-[white] text-xl ">{experience.title}</h1>
+                  <div className="duration flex gap-2 items-center">
+                    {experience.type && (
+                      <span className="text-secondary ">
+                        ({experience.type}):{" "}
+                      </span>
+                    )}
+                    <h2 className="text-md text-green"> {experience.year}</h2>
                   </div>
-                  <span className="text-secondary opacity-40 pb-[30px] text-sm">
-                    {work.about}
-                  </span>
-                  <ul className="space-y-2 mt-3">
-                    <h1 className="text-green text-lg ">Duties:</h1>
-                    {work.desc &&
-                      work.desc.map((duties, index) => (
-                        <li
-                          key={index}
-                          className="tools text-secondary flex items-start  gap-2 space-y-4 text-sm  "
-                        >
-                          <span className="pt-2 ">
-                            <svg
-                              width="18"
-                              height="12"
-                              viewBox="0 0 10 8"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z"
-                                fill="#D6E869"
-                              />
-                            </svg>
-                          </span>
-                          {duties}
-                        </li>
-                      ))}
-                  </ul>
                 </div>
-              );
-            })}
+                <span className="text-secondary opacity-40 pb-[30px] text-sm">
+                  {experience.about}
+                </span>
+                <ul className="space-y-2 mt-3">
+                  <h1 className="text-green text-lg ">Duties:</h1>
+                  {experience.desc &&
+                    experience.desc.map((duties, index) => (
+                      <li
+                        key={index}
+                        className="tools text-secondary flex items-start  gap-2 space-y-4 text-sm  "
+                      >
+                        <span className="pt-2 ">
+                          <svg
+                            width="18"
+                            height="12"
+                            viewBox="0 0 10 8"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M9.35355 4.35355C9.54882 4.15829 9.54882 3.84171 9.35355 3.64645L6.17157 0.464466C5.97631 0.269204 5.65973 0.269204 5.46447 0.464466C5.2692 0.659728 5.2692 0.976311 5.46447 1.17157L8.29289 4L5.46447 6.82843C5.2692 7.02369 5.2692 7.34027 5.46447 7.53553C5.65973 7.7308 5.97631 7.7308 6.17157 7.53553L9.35355 4.35355ZM0 4.5H9V3.5H0V4.5Z"
+                              fill="#D6E869"
+                            />
+                          </svg>
+                        </span>
+                        {duties}
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </motion.div>
       </div>
