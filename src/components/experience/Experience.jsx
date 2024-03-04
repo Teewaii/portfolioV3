@@ -69,20 +69,20 @@ export default function Experience() {
           <div className="tab-contents">
             {work.map((experience, index) => (
               <div
+                key={index}
                 className={
                   exp === index
                     ? "content text-left lg:ml-[30px] pt-[30px]"
                     : "projectTab hidden"
                 }
                 onClick={() => activeTab(index)}
-                key={index}
               >
                 <div className="top flex flex-col lg:flex-row mb-[20px] lg:mb-0  lg:items-center gap-2 lg:gap-4">
                   <h1 className="text-[white] text-xl ">{experience.title}</h1>
                   <div className="duration flex gap-2 items-center">
                     {experience.type && (
                       <span className="text-secondary ">
-                        ({experience.type}):{" "}
+                        ({experience.type}):
                       </span>
                     )}
                     <h2 className="text-md text-green"> {experience.year}</h2>
@@ -92,7 +92,13 @@ export default function Experience() {
                   {experience.about}
                 </span>
                 <ul className="space-y-2 mt-3">
-                  <h1 className="text-green text-lg ">Duties:</h1>
+                  <h1 className="text-green text-lg ">Role:</h1>
+                  {experience.type !== "Volunteered" ? (
+                    <span className="text-white italic">
+                      My role include but not limited to:
+                    </span>
+                  ) : null}
+
                   {experience.desc &&
                     experience.desc.map((duties, index) => (
                       <li
