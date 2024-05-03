@@ -22,12 +22,12 @@ export default function About() {
   return (
     <section
       id="about"
-      className="about min-h-[100vh]  flex items-center justify-center pt-[110px] pb-4 3xl:pb-0 3xl:pt-0
-     md:py-[50px] lg:py-[120px] 2xl:py-[80px] lg:min-h-[95vh]   3xl:py-[10px] 
+      className="about min-h-[100vh] flex items-center justify-center pt-[110px] pb-4 3xl:pb-0 3xl:pt-0
+     md:py-[50px] lg:py-[120px] 2xl:py-[80px] lg:min-h-[95vh] 3xl:py-[10px] 
     "
     >
       {/* Main content container */}
-      <div className="main aboutWrapper max-w-[85%] lg:max-w-[82%] 2xl:max-w-[100%] 3xl:max-w-[100%] md:pl-[20px] 2xl:pl-[50px] 5xl:pl-[0px]   4xl:pl-[280px]    flex flex-col lg:flex-row items-center justify-center  ">
+      <div className="main aboutWrapper max-w-[85%] lg:max-w-[82%] 2xl:max-w-[100%] md:pl-[20px] 2xl:pl-[250px] 4xl:pl-[280px] 5xl:pl-[0px] flex flex-col lg:flex-row items-center justify-center  ">
         <div
           className="bucket flex items-center lg:pl-[120px] 2xl:pl-[0px] 3xl:max-w-[80%] 5xl:pl-[120px]  flex-col lg:items-start  gap-[50px] lg:gap-[20px]  2xl:gap-[180px]  
       lg:flex-row 
