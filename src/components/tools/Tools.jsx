@@ -5,8 +5,9 @@ export default function Tools() {
   return (
     <section
       className="tools absolute bottom-0 bg-[white] w-screen h-[17vh]
-    lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[58%] 5xl:after:left-[62%]  lg:after:top-[50%] lg:after:bg-primary lg:after:h-[2px]  after:opacity-50  "
+    "
     >
+      {/* lg:after:absolute lg:after:right-0 lg:after:left-[90%] xl:after:left-[85%] 2xl:after:left-[68%] 3xl:after:left-[58%] 5xl:after:left-[62%]  lg:after:top-[50%] lg:after:bg-primary lg:after:h-[2px]  after:opacity-50  " */}
       <div
         className="hero bg-spiral-mob flex  bg-no-repeat bg-cover bg-bottom bg-opacity-[0.5] h-[20vh] 
     lg:bg-spiral-lg  lg:min-h-[18vh]  relative after:absolute w-[100%]  
