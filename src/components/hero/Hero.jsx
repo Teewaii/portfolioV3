@@ -7,7 +7,7 @@ export default function Hello() {
   return (
     <section
       id="hero"
-      className="hero relative bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] overflow-hidden after:hidden before:hidden md:after:block md:before:block md:pt-0 xl:min-h-[110vh] 3xl:min-h-[100vh]"
+      className="hero relative bg-primary min-h-[100vh] flex flex-col items-center justify-between pt-[45px] overflow-hidden after:hidden before:hidden md:after:block md:before:block md:pt-0 xl:min-h-[120vh] 3xl:min-h-[100vh]"
     >
       {/* Main content container */}
       <div className="main hero-container h-[75vh] md:h-full flex max-w-[85%] sm:py-20 md:pl-[20px] lg:py-0 2xl:pl-[150px] 3xl:pl-[170px]  ">
